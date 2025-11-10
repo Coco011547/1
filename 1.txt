@@ -1,0 +1,4 @@
+1.UW JIO_ASBC whitelisting in KA SCSCF--- Parent CR-C5986782
+2.CR to Create Virtual DRA Link in Bihar and AP ASBC-- PR CR-C5946686
+3.Airtel Local and NLD IC CAC value change in TN1PSBC02
+4.Retry Policy change for External Accounts in Bangalore External SMSC--- Parent CR-C6002814
