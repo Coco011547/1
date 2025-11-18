@@ -1,4 +1,20 @@
-1.UW JIO_ASBC whitelisting in KA SCSCF--- Parent CR-C5986782
-2.CR to Create Virtual DRA Link in Bihar and AP ASBC-- PR CR-C5946686
-3.Airtel Local and NLD IC CAC value change in TN1PSBC02
-4.Retry Policy change for External Accounts in Bangalore External SMSC--- Parent CR-C6002814
+Tonight Planned IMS Activities 18-November-2025
+ 
+CFX-2
+
+STP-1
+
+SBC-1
+
+SMSC-1
+ 
+1-Definition of new WB and BR v-CoreDRA in WB Serving SCSCF --Parent CR--C5915270
+ 
+2-CR to Create Virtual DRA Link in UPW ASBC-- PR CR-C5946686
+ 
+3-STP: New link creation for PATNA HLR in DEL-KOL STP--PR CR C6005530
+ 
+4-New Account Creation for Netcore and Routemobile
+ 
+5-To Update the PSAP DB for TN Circle in TN Circle CFX node for level 1 Service
+ 
