@@ -1,20 +1,25 @@
-Tonight Planned IMS Activities 18-November-2025
- 
+
+Tonight Planned IMS activities 25-November-2025
+
 CFX-2
-
 STP-1
-
-SBC-1
-
+MNP-1
+LB-2
 SMSC-1
- 
-1-Definition of new WB and BR v-CoreDRA in WB Serving SCSCF --Parent CR--C5915270
- 
-2-CR to Create Virtual DRA Link in UPW ASBC-- PR CR-C5946686
- 
-3-STP: New link creation for PATNA HLR in DEL-KOL STP--PR CR C6005530
- 
-4-New Account Creation for Netcore and Routemobile
- 
-5-To Update the PSAP DB for TN Circle in TN Circle CFX node for level 1 Service
- 
+
+*Key PE Details*
+
+1-UW JIO_ASBC whitelisting in BR SCSCF--- Parent CR-C5986782-- *Planned Tonight*
+
+2-To Update the PSAP DB for GJ circle in GJ circle CFX node for Level 1 Service-- *Planned Tonight*
+
+3-VIP Creation and IP pool addition for forwarding via MY JIO APP (EDA ) in NAG DR Announcement LB Nodes--parent CR C6031506-- *Planned Tonight*
+
+4-New vMRF IP addition in LCK CRBT & ANN LB & same will keep in DISABLE state--CR-C6023879-- *Planned Tonight*
+
+5-New Account creation on Mumbai Internal SMSC-- *Planned Tonight*
+
+6-STP: New JIO PATNA HLR Inter-STP and GT routing update in MUM-KAR STP pair CR-C6005530-- *Planned Tonight*
+
+7-To enable Cnap Db at DR Nagpur location for Cnap onnet testing-- *Planned Tonight*
+
