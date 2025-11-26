@@ -1,25 +1,32 @@
+Tonight Planned IMS activities 26-November-2025
 
-Tonight Planned IMS activities 25-November-2025
-
-CFX-2
-STP-1
-MNP-1
-LB-2
-SMSC-1
+SBC - 1
+F5LB - 2
+CFX - 2
+STP - 1
+MNP - 4
 
 *Key PE Details*
 
-1-UW JIO_ASBC whitelisting in BR SCSCF--- Parent CR-C5986782-- *Planned Tonight*
+1-	Create IP POI TG in BH05PSBC01-Name-APTNA7BEF27-no.37-BR5RCHPH14VFSBM11NN	*Planned Tonight*
 
-2-To Update the PSAP DB for GJ circle in GJ circle CFX node for Level 1 Service-- *Planned Tonight*
+2-	VIP Creation and IP pool addition for forwarding via MY JIO APP in NAG DR Announcement LB Nodes--parent CR C6031506	*Planned Tonight*
 
-3-VIP Creation and IP pool addition for forwarding via MY JIO APP (EDA ) in NAG DR Announcement LB Nodes--parent CR C6031506-- *Planned Tonight*
+3-	Backup and Restore testing :Bangalore ANN LB (56.3.10.132/56.3.10.133)through HPOO  --- Parent CR- C5855639	*Planned Tonight*
 
-4-New vMRF IP addition in LCK CRBT & ANN LB & same will keep in DISABLE state--CR-C6023879-- *Planned Tonight*
+4-	Definition of new WB and BR v-CoreDRA in BR Serving SCSCF_Parent CR- C5913190	*Planned Tonight*
 
-5-New Account creation on Mumbai Internal SMSC-- *Planned Tonight*
+5-	New MAPSET and MRNSET creation for new JIO Bihar HLR in MUM-KAR STP. CR-C6005530	*Planned Tonight*
 
-6-STP: New JIO PATNA HLR Inter-STP and GT routing update in MUM-KAR STP pair CR-C6005530-- *Planned Tonight*
+6-	To Update the PSAP DB for HR Circle in HR Circle CFX node for Level 1 Service	*Planned Tonight*
 
-7-To enable Cnap Db at DR Nagpur location for Cnap onnet testing-- *Planned Tonight*
+7-	To enable Cnap Db at PR bangalore for Cnap onnet testing	*Planned Tonight*
+
+8-	To enable Cnap Db at PR delhi for Cnap onnet testing	*Planned Tonight*
+
+9-	MSC code Re-Allocation from Airtel-MH and Airtel-UE to RJIO-MH	*Planned Tonight*
+
+10-	to configure test numbers in PR Delhi and Bangalore MNP+ node for CNAP DB Testing	*Planned Tonight*
+
+
 
