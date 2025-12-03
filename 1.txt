@@ -10,13 +10,12 @@ MNP	-1
 
 
 *Key PE Details*
-1-	CC NDC(Peru,Brazil,UK,Mexico,Germany,Spain,Chile) addition for LTE, VoLTE roaming in M2B2(KAR circle) HSS cluster--Parent CR=C6039699	*Planned tonight*
-2-	IMEI TAC codes update in EIR Whitelist for H1N1-M1B1-D1K1 CLUSTER--PARENT CR C6044616	*Planned tonight*
-3-	UW JIO ASBC Integration in UW PCSCF for emergency call--Parent CR--C6037025	*Planned tonight*
-4-	New vMRF IP addition in MH and DL (CRBT-ANN LB) & same will keep in DISABLE state--CR-C6023879	*Planned tonight*
-5-	To test end to end Backup & Restore functionality for MCA-Ahmadabad through HPOO	*Planned tonight*
-6-	WHITELISTING OF DEL & KOL PR LB and NAG DR LB pool in DL circle PR & DR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293	*Planned tonight*
-7-	WHITELISTING OF DL & KO vDRA pool in DL PR & DR CTAS for Sh & Ro interface --Parent CR=C5971262	*Planned tonight*
-8-	Routing configuration for Call-forwarding testing on new Ut interface in MH and DL Announcement LB ( route addition between Route domain-1 and default route domain )	*Planned tonight*
-9-	Level Opening for Allocation of MSC Code to Airtel UP-West : 86790-86799	*Planned tonight*
-
+1-	CC NDC(Peru,Brazil,UK,Mexico,Germany,Spain,Chile) addition for LTE, VoLTE roaming in M2B2(KAR circle) HSS cluster--Parent CR=C6039699	----*Planned tonight*
+2-	IMEI TAC codes update in EIR Whitelist for H1N1-M1B1-D1K1 CLUSTER--PARENT CR C6044616	----*Planned tonight*
+3-	UW JIO ASBC Integration in UW PCSCF for emergency call--Parent CR--C6037025	----*Planned tonight*
+4-	New vMRF IP addition in MH and DL (CRBT-ANN LB) & same will keep in DISABLE state--CR-C6023879	----*Planned tonight*
+5-	To test end to end Backup & Restore functionality for MCA-Ahmadabad through HPOO	----*Planned tonight*
+6-	WHITELISTING OF DEL & KOL PR LB and NAG DR LB pool in DL circle PR & DR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293	----*Planned tonight*
+7-	WHITELISTING OF DL & KO vDRA pool in DL PR & DR CTAS for Sh & Ro interface --Parent CR=C5971262	----*Planned tonight*
+8-	Routing configuration for Call-forwarding testing on new Ut interface in MH and DL Announcement LB ( route addition between Route domain-1 and default route domain )	----*Planned tonight*
+9-	Level Opening for Allocation of MSC Code to Airtel UP-West : 86790-86799	----*Planned tonight*
