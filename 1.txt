@@ -1,32 +1,22 @@
-Tonight Planned IMS activities 26-November-2025
+Tonight Planned IMS activities 03-December-2025
 
-SBC - 1
-F5LB - 2
-CFX - 2
-STP - 1
-MNP - 4
+HLR	-1
+EIR	-1
+CFX	-1
+F5 LB	-2
+MCA	-1
+CTAS	-2
+MNP	-1
+
 
 *Key PE Details*
-
-1-	Create IP POI TG in BH05PSBC01-Name-APTNA7BEF27-no.37-BR5RCHPH14VFSBM11NN	*Planned Tonight*
-
-2-	VIP Creation and IP pool addition for forwarding via MY JIO APP in NAG DR Announcement LB Nodes--parent CR C6031506	*Planned Tonight*
-
-3-	Backup and Restore testing :Bangalore ANN LB (56.3.10.132/56.3.10.133)through HPOO  --- Parent CR- C5855639	*Planned Tonight*
-
-4-	Definition of new WB and BR v-CoreDRA in BR Serving SCSCF_Parent CR- C5913190	*Planned Tonight*
-
-5-	New MAPSET and MRNSET creation for new JIO Bihar HLR in MUM-KAR STP. CR-C6005530	*Planned Tonight*
-
-6-	To Update the PSAP DB for HR Circle in HR Circle CFX node for Level 1 Service	*Planned Tonight*
-
-7-	To enable Cnap Db at PR bangalore for Cnap onnet testing	*Planned Tonight*
-
-8-	To enable Cnap Db at PR delhi for Cnap onnet testing	*Planned Tonight*
-
-9-	MSC code Re-Allocation from Airtel-MH and Airtel-UE to RJIO-MH	*Planned Tonight*
-
-10-	to configure test numbers in PR Delhi and Bangalore MNP+ node for CNAP DB Testing	*Planned Tonight*
-
-
+1-	CC NDC(Peru,Brazil,UK,Mexico,Germany,Spain,Chile) addition for LTE, VoLTE roaming in M2B2(KAR circle) HSS cluster--Parent CR=C6039699	*Planned tonight*
+2-	IMEI TAC codes update in EIR Whitelist for H1N1-M1B1-D1K1 CLUSTER--PARENT CR C6044616	*Planned tonight*
+3-	UW JIO ASBC Integration in UW PCSCF for emergency call--Parent CR--C6037025	*Planned tonight*
+4-	New vMRF IP addition in MH and DL (CRBT-ANN LB) & same will keep in DISABLE state--CR-C6023879	*Planned tonight*
+5-	To test end to end Backup & Restore functionality for MCA-Ahmadabad through HPOO	*Planned tonight*
+6-	WHITELISTING OF DEL & KOL PR LB and NAG DR LB pool in DL circle PR & DR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293	*Planned tonight*
+7-	WHITELISTING OF DL & KO vDRA pool in DL PR & DR CTAS for Sh & Ro interface --Parent CR=C5971262	*Planned tonight*
+8-	Routing configuration for Call-forwarding testing on new Ut interface in MH and DL Announcement LB ( route addition between Route domain-1 and default route domain )	*Planned tonight*
+9-	Level Opening for Allocation of MSC Code to Airtel UP-West : 86790-86799	*Planned tonight*
 
