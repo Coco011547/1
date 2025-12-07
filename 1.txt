@@ -1,37 +1,33 @@
-Tonight Planned IMS activities 04-December-2025
+Tonight Planned IMS activities 07-December-2025
 
 F5LB	-2
+MRF/vMRF	-1
 CTAS	-2
-CFX	-1
-SBC	-1
-HSS	-1
-OCCP	-1
-MNP	-4
+STP	-1
+CFX	-3
+IPSM	-1
+
 
 
 
 *Key PE Details*
 
-1-	Routing configuration for Call-forwarding testing on new Ut interface in AHM and CHN Announcement LB ( route addition between Route domain-1 and default route domain ) - PR CR-C6048463 --- *Planned Tonight*
-
-2-	Whitelisting of DEL & KOL PR LB and NAG DR LB pool in UPE & UPW circle DR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293 --- *Planned Tonight*
-
-3-	Whitelisting of DL & KO vDRA pool in UPE & UPW & DR CTAS for Sh & Ro interface --Parent CR=C5971262 --- *Planned Tonight*
-
-4-	New vMRF IP addition in AHM and CHN (CRBT-ANN LB) & same will keep in DISABLE state--CR-C6023879 --- *Planned Tonight*
-
-5-	To Update the PSAP DB for Ap Circle in AP Circle CFX node for Level 1 Service --- *Planned Tonight*
-
-6-	CAC Modification for Airtel RJ POI in RJ1PSBC03 --- *Planned Tonight*
-
-7-	Remove CC (Peru,Brazil,UK,Mexico,Germany,Spain,Chile) & MCC MNC(Telephonica & Vivo) for LTE, VoLTE roaming in M2B2(KA circle) HSS cluster--Parent CR=C6039699 --- *Planned Tonight*
-
-8-	To test end to end Backup & Restore functionality for OCCP-Delhi through JABS--Node IP - 56.5.242.138 --- *Planned Tonight*
-
-9-	Level Opening for Allocation of MSC Code to Airtel UP-West : 86790-86799 in DEL-KOL Nodes---Parent CR--C6047026 --- *Planned Tonight*
-
-10-	To Whitelist Airtel and Vi IP's with API Key at Jio Delhi PR CNAP DB. --- *Planned Tonight*
-
-11-	Whitelisting test numbers for testing in MU PR MNP+ --- *Planned Tonight*
-
-12-	Enable Global flag to activate CNAP feature for all On-net retail subscribers parented to Hyderabad supercore Primary MNP+ ( circle –AP and TN ) --- *Planned Tonight*
+1-	New vMRF IP addition in KO ANNC LB  & same will keep in DISABLE state--CR-C6039230
+	
+2-	New vMRF IP addition in KO CRBT LB  & same will keep in DISABLE state--CR-C6051387
+	
+3-	ANN ID-216 CLIP UPLOADING in RJ MRF/vMRF. (Announcement will playback to 1600 series if JIO B party subscriber has activated Call forward immediate)
+	
+4-	Whitelisting of DL & KO vDRA pool in KO & WB Circle PR & DR CTAS for Sh & Ro interface --Parent CR=C5971262
+	
+5-	Whitelisting of DEL & KOL PR LB and NAG DR LB pool in KO & WB circle PR & DR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293
+	
+6-	STP: Link creation for new Jio WB HLR in DEL-KOL STP - C6005530
+	
+7-	MP JIO ISBC Integration in MU-DR circle SCSCF Nodes--Parent CR--C6046929
+	
+8-	UPW5 Jio ISBC Integration in MUDR SCSCF Nodes--- Parent CR--C6041303
+	
+9-	UW JIO_ASBC whitelisting in  MUDR SCSCF Nodes--- Parent CR-C5986782
+	
+10-	PVNI & SMSGT Configuration in MH-DR (5/5) IPSM nodes  for VoLTE Outbound Roaming with New Partner (Croatia-T Mobile, Chile-WOM, Poland-Polkomtel & UK-EE)-Parent CR=C6007633
