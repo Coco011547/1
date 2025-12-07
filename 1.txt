@@ -12,22 +12,23 @@ IPSM	-1
 
 *Key PE Details*
 
-1-	New vMRF IP addition in KO ANNC LB  & same will keep in DISABLE state--CR-C6039230
+1-	New vMRF IP addition in KO ANNC LB  & same will keep in DISABLE state--CR-C6039230 --- *Planned Tonight*
 	
-2-	New vMRF IP addition in KO CRBT LB  & same will keep in DISABLE state--CR-C6051387
+2-	New vMRF IP addition in KO CRBT LB  & same will keep in DISABLE state--CR-C6051387 --- *Planned Tonight*
 	
-3-	ANN ID-216 CLIP UPLOADING in RJ MRF/vMRF. (Announcement will playback to 1600 series if JIO B party subscriber has activated Call forward immediate)
+3-	ANN ID-216 CLIP UPLOADING in RJ MRF/vMRF. (Announcement will playback to 1600 series if JIO B party subscriber has activated Call forward immediate) --- *Planned Tonight*
 	
-4-	Whitelisting of DL & KO vDRA pool in KO & WB Circle PR & DR CTAS for Sh & Ro interface --Parent CR=C5971262
+4-	Whitelisting of DL & KO vDRA pool in KO & WB Circle PR & DR CTAS for Sh & Ro interface --Parent CR=C5971262 --- *Planned Tonight*
 	
-5-	Whitelisting of DEL & KOL PR LB and NAG DR LB pool in KO & WB circle PR & DR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293
+5-	Whitelisting of DEL & KOL PR LB and NAG DR LB pool in KO & WB circle PR & DR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293  --- *Planned Tonight*
 	
-6-	STP: Link creation for new Jio WB HLR in DEL-KOL STP - C6005530
+6-	STP: Link creation for new Jio WB HLR in DEL-KOL STP - C6005530 --- *Planned Tonight*
 	
-7-	MP JIO ISBC Integration in MU-DR circle SCSCF Nodes--Parent CR--C6046929
+7-	MP JIO ISBC Integration in MU-DR circle SCSCF Nodes--Parent CR--C6046929 --- *Planned Tonight*
 	
-8-	UPW5 Jio ISBC Integration in MUDR SCSCF Nodes--- Parent CR--C6041303
+8-	UPW5 Jio ISBC Integration in MUDR SCSCF Nodes--- Parent CR--C6041303 --- *Planned Tonight*
 	
-9-	UW JIO_ASBC whitelisting in  MUDR SCSCF Nodes--- Parent CR-C5986782
+9-	UW JIO_ASBC whitelisting in  MUDR SCSCF Nodes--- Parent CR-C5986782 --- *Planned Tonight*
 	
-10-	PVNI & SMSGT Configuration in MH-DR (5/5) IPSM nodes  for VoLTE Outbound Roaming with New Partner (Croatia-T Mobile, Chile-WOM, Poland-Polkomtel & UK-EE)-Parent CR=C6007633
+10-	PVNI & SMSGT Configuration in MH-DR (5/5) IPSM nodes  for VoLTE Outbound Roaming with New Partner (Croatia-T Mobile, Chile-WOM, Poland-Polkomtel & UK-EE)-Parent CR=C6007633 --- *Planned Tonight*
+
