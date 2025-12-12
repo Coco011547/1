@@ -1,35 +1,34 @@
-Tonight Planned IMS activities 07-December-2025
+Tonight Planned IMS activities 12-December-2025
 
-F5LB	-2
-MRF/vMRF	-1
-CTAS	-2
-STP	-1
-CFX	-3
-IPSM	-1
-
-
+SBC	-2
+A2P SMSC	-1
+CFX	-1
+F5LB	-1
+HSS	-1
+MNP	-2
+STP	-2
 
 
 *Key PE Details*
 
-1-	New vMRF IP addition in KO ANNC LB  & same will keep in DISABLE state--CR-C6039230 --- **
-	
-2-	New vMRF IP addition in KO CRBT LB  & same will keep in DISABLE state--CR-C6051387 --- *Completed*
-	
-3-	ANN ID-216 CLIP UPLOADING in RJ MRF/vMRF. (Announcement will playback to 1600 series if JIO B party subscriber has activated Call forward immediate) --- *Completed*
-	
-4-	Whitelisting of DL & KO vDRA pool in KO & WB Circle PR & DR CTAS for Sh & Ro interface --Parent CR=C5971262 --- *Completed*
-	
-5-	Whitelisting of DEL & KOL PR LB and NAG DR LB pool in KO & WB circle PR & DR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293  --- *Completed*
-	
-6-	STP: Link creation for new Jio WB HLR in DEL-KOL STP - C6005530 --- *Completed*
-	
-7-	MP JIO ISBC Integration in MU-DR circle SCSCF Nodes--Parent CR--C6046929 --- *Completed*
-	
-8-	UPW5 Jio ISBC Integration in MUDR SCSCF Nodes--- Parent CR--C6041303 --- *Completed*
-	
-9-	UW JIO_ASBC whitelisting in  MUDR SCSCF Nodes--- Parent CR-C5986782 --- *Completed*
-	
-10-	PVNI & SMSGT Configuration in MH-DR (5/5) IPSM nodes  for VoLTE Outbound Roaming with New Partner (Croatia-T Mobile, Chile-WOM, Poland-Polkomtel & UK-EE)-Parent CR=C6007633 --- *Completed*
+1-	CR to Create Virtual DRA Link in AP and BH ASBC-- PR CR-C5946686 ---*Planned Tonight*
+
+2-	To Update the ECGI detail for KOL Circle in KOL Circle ECSCF node for Level 1 Service---*Planned Tonight*
+
+3-	STP: New JIO WB HLR GT Routing in DEL-KOL STP CR-C6005530---*Planned Tonight*
+
+4-	STP: WB-Bihar 5G 13-digit test no routing for DEL-KOL STP---*Planned Tonight*
+
+5-	Remove CC NDC (Peru,Brazil,UK,Mexico,Germany,Spain,Chile) & MCC MNC(Telephonica & Vivo) for LTE, VoLTE roaming in H1N1 ( MH, MP, AP, TN CIRCLE) HSS cluster--Parent CR=C6039699---*Planned Tonight*
+
+6-	Retry policy Change for Tata Communication - Mumbai External SMSC---*Planned Tonight*
+
+7-	New vMRF IP addition in Nagpur CRBT LB  & same will keep in DISABLE state CR C6051387---*Planned Tonight*
+
+8-	6K CAC deletion for Non live Airtel MU OG - JIO MU Access TG 22 in MU-PSBC01---*Planned Tonight*
+
+9-	MSC code Re-Allocation from Airtel-UE to RJIO-MH – 92086  in MUM-KAR-MU DR--C6059501---*Planned Tonight*
+
+10-	Activate CNAP feature for all On-net subscribers parented to Ahmedabad super core MNP+ ( circles parented -GJ,RJ )---*Planned Tonight*
 
 
