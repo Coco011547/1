@@ -1,34 +1,28 @@
-Tonight Planned IMS activities 12-December-2025
+Tonight Planned IMS activities 19-December-2025
 
-SBC	-2
-A2P SMSC	-1
-CFX	-1
-F5LB	-1
-HSS	-1
-MNP	-2
+SMSC	-1
 STP	-2
+F5-LB	-1
+CFX	-2
+ISBC	-1
+
 
 
 *Key PE Details*
+1-	TPS modification for RCS account in Internal SMSC (DEL-KOL-BLR)_Parent CR_C6074014 ---*Planned Tonight*
 
-1-	CR to Create Virtual DRA Link in AP and BH ASBC-- PR CR-C5946686 ---*Planned Tonight*
+2-	New MAPSET and MRNSET creation for new JIO WB HLR in HYD-NAG STP_PR CR-C6005530 ---*Planned Tonight*
 
-2-	To Update the ECGI detail for KOL Circle in KOL Circle ECSCF node for Level 1 Service---*Planned Tonight*
+3-	STP: ILD GT routing (NEW) at HYD-NAG STPs for Palestine Jawwal Telecom, Jamaica Digicel, Philippines Globe Telecom--PR C6062482 ---*Planned Tonight*
 
-3-	STP: New JIO WB HLR GT Routing in DEL-KOL STP CR-C6005530---*Planned Tonight*
+4-	New vMRF IP addition in Mumbai ANNC LB & CRBT LB  & same will keep in DISABLE state CR C6051387 ---*Planned Tonight*
 
-4-	STP: WB-Bihar 5G 13-digit test no routing for DEL-KOL STP---*Planned Tonight*
+5-	UPW5 Jio ISBC Integration in BR,NE,AS and WB circle SCSCF Nodes--- Parent CR--C6041303 ---*Planned Tonight*
 
-5-	Remove CC NDC (Peru,Brazil,UK,Mexico,Germany,Spain,Chile) & MCC MNC(Telephonica & Vivo) for LTE, VoLTE roaming in H1N1 ( MH, MP, AP, TN CIRCLE) HSS cluster--Parent CR=C6039699---*Planned Tonight*
+6-	MP JIO ISBC Integration in BR,NE,AS and WB circle SCSCF Nodes--Parent CR--C6046929 ---*Planned Tonight*
 
-6-	Retry policy Change for Tata Communication - Mumbai External SMSC---*Planned Tonight*
+7-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL SIB in BR3ISBC10,BR3ISBC12,BR3ISBC11-PARENT CR-C5834262 ---*Planned Tonight*
 
-7-	New vMRF IP addition in Nagpur CRBT LB  & same will keep in DISABLE state CR C6051387---*Planned Tonight*
 
-8-	6K CAC deletion for Non live Airtel MU OG - JIO MU Access TG 22 in MU-PSBC01---*Planned Tonight*
-
-9-	MSC code Re-Allocation from Airtel-UE to RJIO-MH – 92086  in MUM-KAR-MU DR--C6059501---*Planned Tonight*
-
-10-	Activate CNAP feature for all On-net subscribers parented to Ahmedabad super core MNP+ ( circles parented -GJ,RJ )---*Planned Tonight*
 
 
