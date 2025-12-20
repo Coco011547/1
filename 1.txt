@@ -1,27 +1,30 @@
-Tonight Planned IMS activities 19-December-2025
+Tonight Planned IMS activities 20-December-2025
 
-SMSC	-1
+CFX	-1
+Mobileum	-1
+SBC	-3
 STP	-2
-F5-LB	-1
-CFX	-2
-ISBC	-1
+CTAS	-1
+
 
 
 
 *Key PE Details*
-1-	TPS modification for RCS account in Internal SMSC (DEL-KOL-BLR)_Parent CR_C6074014 ---*Planned Tonight*
+1-	To Update the PSAP DB for PB Cirlce in PB Circle CFX node for Level 1 Service	---	*Planned Tonight*
 
-2-	New MAPSET and MRNSET creation for new JIO WB HLR in HYD-NAG STP_PR CR-C6005530 ---*Planned Tonight*
+2-	SIB Node whitelisting in Mobileum SIP FW - Nagpur Supercore	---	*Planned Tonight*
 
-3-	STP: ILD GT routing (NEW) at HYD-NAG STPs for Palestine Jawwal Telecom, Jamaica Digicel, Philippines Globe Telecom--PR C6062482 ---*Planned Tonight*
+3-	CR to Create Virtual DRA Link in TN and  RJ (8 Nodes) ASBC-- PR CR-C5946686	---	*Planned Tonight*
 
-4-	New vMRF IP addition in Mumbai ANNC LB & CRBT LB  & same will keep in DISABLE state CR C6051387 ---*Planned Tonight*
+4-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL SIB in BR3ISBC13,BR3ISBC14,BR3ISBC15-PARENT CR-C5834262	---	*Planned Tonight*
 
-5-	UPW5 Jio ISBC Integration in BR,NE,AS and WB circle SCSCF Nodes--- Parent CR--C6041303 ---*Planned Tonight*
+5-	CAC and SLP ID Update in DL1SBC-1 Jio IC TG-55 with Zoom new IP NLD Transit POI connectivity for Delhi Circle.	---	*Planned Tonight*
 
-6-	MP JIO ISBC Integration in BR,NE,AS and WB circle SCSCF Nodes--Parent CR--C6046929 ---*Planned Tonight*
+6-	STP: Airtel new M2M series routing	---	*Planned Tonight*
 
-7-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL SIB in BR3ISBC10,BR3ISBC12,BR3ISBC11-PARENT CR-C5834262 ---*Planned Tonight*
+7-	STP: WB-Bihar 5G 13-digit test no routing for HYD-NAG STP--PR-C6068929	---	*Planned Tonight*
+
+8-	Whitelisting of Lucknow PR & Nagpur DR LB pool in UPE/UPW circle PR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293	---	*Planned Tonight*
 
 
 
