@@ -10,6 +10,7 @@ CTAS	-1
 
 
 *Key PE Details*
+
 1-	To Update the PSAP DB for PB Cirlce in PB Circle CFX node for Level 1 Service	---	*Planned Tonight*
 
 2-	SIB Node whitelisting in Mobileum SIP FW - Nagpur Supercore	---	*Planned Tonight*
@@ -25,6 +26,7 @@ CTAS	-1
 7-	STP: WB-Bihar 5G 13-digit test no routing for HYD-NAG STP--PR-C6068929	---	*Planned Tonight*
 
 8-	Whitelisting of Lucknow PR & Nagpur DR LB pool in UPE/UPW circle PR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293	---	*Planned Tonight*
+
 
 
 
