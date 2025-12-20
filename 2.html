@@ -1,129 +1,276 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tonight Planned IMS Activities – 20-December-2025</title>
+  <title>IMS Activities Excel Formatter – File/Text Input & Output Builder</title>
+  <!-- XLSX parser for .xlsx/.xls files -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
   <style>
-    :root {
-      --bg: #0f172a;        /* slate-900 */
-      --card: #111827;      /* gray-900 */
-      --text: #e5e7eb;      /* gray-200 */
-      --muted: #9ca3af;     /* gray-400 */
-      --accent: #38bdf8;    /* sky-400 */
-      --ok: #10b981;        /* emerald-500 */
-    }
+    :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --accent:#38bdf8; --ok:#10b981; --danger:#ef4444; }
     html, body { height: 100%; }
-    body {
-      margin: 0; font-family: Segoe UI, Roboto, Arial, sans-serif;
-      background: linear-gradient(135deg, var(--bg), #111827);
-      color: var(--text);
-    }
-    .container { max-width: 980px; margin: 32px auto; padding: 0 16px; }
+    body { margin: 0; font-family: Segoe UI, Roboto, Arial, sans-serif; background: linear-gradient(135deg, var(--bg), #111827); color: var(--text); }
+    .container { max-width: 1140px; margin: 28px auto; padding: 0 16px; }
+    header { margin-bottom: 16px; }
+    h1 { margin: 0 0 8px; font-size: 1.7rem; }
+    .sub { color: var(--muted); }
 
-    header {
-      margin-bottom: 20px; padding: 20px; border-radius: 12px;
-      background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(6px);
-      border: 1px solid #334155;
-    }
-    h1 { margin: 0 0 6px; font-size: 1.8rem; }
-    .date { color: var(--muted); }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .card { background: var(--card); border: 1px solid #1f2937; border-radius: 12px; padding: 14px; }
+    .card h2 { margin: 0 0 10px; font-size: 1.1rem; }
+    label { display:block; margin: 8px 0 6px; color: var(--muted); }
+    input[type="text"], input[type="file"], textarea, select { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #334155; background: #0b1220; color: var(--text); }
+    textarea { min-height: 160px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .row { display:flex; gap:8px; align-items:center; }
+    .row > * { flex: 1; }
+    .btn { display:inline-flex; align-items:center; gap:8px; padding: 10px 14px; border-radius: 8px; border: 1px solid #334155; color: var(--text); background: #0b1220; cursor:pointer; }
+    .btn.primary { background: #0ea5e9; border-color:#0ea5e9; color:#001b2e; font-weight: 700; }
+    .btn.secondary { background: #111827; }
+    .btn.warn { background: #1f2937; border-color:#f59e0b; color:#f59e0b; }
+    .btn:disabled { opacity: .6; cursor: not-allowed; }
 
-    /* Summary */
-    .summary-card {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 12px; margin: 20px 0;
-    }
-    .summary-item {
-      background: var(--card); border: 1px solid #1f2937; border-radius: 10px;
-      padding: 14px; display: flex; align-items: center; justify-content: space-between;
-    }
-    .summary-item .name { font-weight: 600; }
-    .summary-item .count { color: var(--accent); font-weight: 700; }
+    .codebox { background:#0b1220; border:1px solid #334155; border-radius:12px; padding:12px; overflow:auto; max-height: 280px; }
+    pre { margin:0; white-space:pre-wrap; }
+    .hint { color: var(--muted); font-size: .92rem; }
+    .error { color: var(--danger); }
+    .small { font-size: .85rem; }
 
-    /* Key PE Details */
-    .section { margin-top: 26px; }
-    .section h2 { font-size: 1.2rem; margin-bottom: 10px; }
-    .item-list { list-style: none; padding: 0; margin: 0; }
-    .pe-item {
-      background: var(--card); border: 1px solid #1f2937; border-radius: 10px;
-      padding: 14px; margin-bottom: 12px; display: grid;
-      grid-template-columns: 60px 1fr auto; gap: 10px; align-items: start;
-    }
-    .serial { font-weight: 700; color: var(--accent); }
-    .desc { line-height: 1.4; }
-    .status { font-weight: 600; color: var(--ok); white-space: nowrap; }
-
-    footer { margin-top: 24px; color: var(--muted); font-size: 0.9rem; }
+    .kv { display:grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Tonight Planned IMS Activities</h1>
-      <div class="date">20-December-2025</div>
-    </header>
+<div class="container">
+  <header>
+    <h1>IMS Activities Excel Formatter</h1>
+    <div class="sub">Upload Excel/CSV or paste tabular text, apply the logic (filter Node Type by black font), and generate the final formatted output.</div>
+  </header>
 
-    <!-- Activity Summary (Counts) -->
-    <section class="summary-card" aria-label="Activity Summary">
-      <div class="summary-item"><span class="name">CFX</span><span class="count">-1</span></div>
-      <div class="summary-item"><span class="name">Mobileum</span><span class="count">-1</span></div>
-      <div class="summary-item"><span class="name">SBC</span><span class="count">-3</span></div>
-      <div class="summary-item"><span class="name">STP</span><span class="count">-2</span></div>
-      <div class="summary-item"><span class="name">CTAS</span><span class="count">-1</span></div>
-    </section>
+  <div class="grid">
+    <!-- INPUT & SETTINGS -->
+    <div class="card">
+      <h2>1) Input</h2>
+      <label for="date">Date (e.g., 20-December-2025)</label>
+      <input id="date" type="text" value="20-December-2025" placeholder="DD-Month-YYYY" />
 
-    <!-- Key PE Details -->
-    <section class="section" aria-label="Key PE Details">
-      <h2>Key PE Details</h2>
-      <ul class="item-list">
-        <li class="pe-item">
-          <span class="serial">1-</span>
-          <span class="desc">To Update the PSAP DB for PB Cirlce in PB Circle CFX node for Level 1 Service</span>
-          <span class="status">Planned Tonight</span>
-        </li>
-        <li class="pe-item">
-          <span class="serial">2-</span>
-          <span class="desc">SIB Node whitelisting in Mobileum SIP FW - Nagpur Supercore</span>
-          <span class="status">Planned Tonight</span>
-        </li>
-        <li class="pe-item">
-          <span class="serial">3-</span>
-          <span class="desc">CR to Create Virtual DRA Link in TN and RJ (8 Nodes) ASBC — PR CR-C5946686</span>
-          <span class="status">Planned Tonight</span>
-        </li>
-        <li class="pe-item">
-          <span class="serial">4-</span>
-          <span class="desc">CR for whitelisting TN, MH, MU, MP, KA, BR, KL SIB in BR3ISBC13, BR3ISBC14, BR3ISBC15 — PARENT CR-C5834262</span>
-          <span class="status">Planned Tonight</span>
-        </li>
-        <li class="pe-item">
-          <span class="serial">5-</span>
-          <span class="desc">CAC and SLP ID Update in DL1SBC-1 Jio IC TG-55 with Zoom new IP NLD Transit POI connectivity for Delhi Circle.</span>
-          <span class="status">Planned Tonight</span>
-        </li>
-        <li class="pe-item">
-          <span class="serial">6-</span>
-          <span class="desc">STP: Airtel new M2M series routing</span>
-          <span class="status">Planned Tonight</span>
-        </li>
-        <li class="pe-item">
-          <span class="serial">7-</span>
-          <span class="desc">STP: WB-Bihar 5G 13-digit test no routing for HYD-NAG STP — PR-C6068929</span>
-          <span class="status">Planned Tonight</span>
-        </li>
-        <li class="pe-item">
-          <span class="serial">8-</span>
-          <span class="desc">Whitelisting of Lucknow PR &amp; Nagpur DR LB pool in UPE/UPW circle PR CTAS for call forwarding via My JIO Apps — Parent CR-C6038293</span>
-          <span class="status">Planned Tonight</span>
-        </li>
-      </ul>
-    </section>
+      <div class="kv">
+        <div>
+          <label for="file">Excel/CSV file (.xlsx/.xls/.csv/.tsv/.txt)</label>
+          <input id="file" type="file" accept=".xlsx,.xls,.csv,.tsv,.txt" />
+        </div>
+        <div>
+          <label for="sheetName">Sheet name (optional for .xlsx/.xls)</label>
+          <input id="sheetName" type="text" placeholder="Leave blank for first sheet" />
+        </div>
+      </div>
 
-    <footer>
-      <p>All activities are scheduled for tonight and are subject to change based on network health and approvals. Ensure CR approvals and rollback plans are ready. Execution owners should confirm readiness in the pre-shift huddle.</p>
-    </footer>
+      <label for="paste">OR paste grid text (first row = headers; columns include "Node Type" & "PE Purpose")</label>
+      <textarea id="paste" placeholder="PE NO\tNode Type\tCircle\tPE Purpose\t...\n1001\tCFX\tPB\tTo Update the PSAP DB for PB Circle CFX node...\n...\n"></textarea>
+
+      <div class="row" style="margin-top:8px;">
+        <label style="flex:none;">Font-color filter:</label>
+        <select id="fontFilter">
+          <option value="black" selected>Include only Node Type cells with Black / Automatic font</option>
+          <option value="any">Include all rows (ignore font color)</option>
+        </select>
+      </div>
+
+      <div class="row" style="margin-top:8px;">
+        <label style="flex:none;">Label suffix:</label>
+        <select id="labelSuffix">
+          <option value="*Planned Tonight*" selected>--- *Planned Tonight*</option>
+          <option value="*Completed*">--- *Completed*</option>
+        </select>
+      </div>
+
+      <div class="row" style="margin-top:10px;">
+        <button class="btn primary" onclick="processFile()">Parse File ▶</button>
+        <button class="btn secondary" onclick="processPaste()">Parse Pasted Text ▶</button>
+        <button class="btn warn" onclick="clearInputs()">Clear</button>
+      </div>
+      <div id="err" class="error" style="margin-top:8px;"></div>
+
+      <div class="codebox" style="margin-top:10px;">
+        <pre id="log" class="small"></pre>
+      </div>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="card">
+      <h2>2) Output (Final Text Format)</h2>
+      <div class="row">
+        <button class="btn primary" onclick="copyOutput()">Copy Output</button>
+        <button class="btn secondary" onclick="downloadTXT()">Download .txt</button>
+        <button class="btn secondary" onclick="downloadHTML()">Download as HTML</button>
+      </div>
+      <label style="margin-top:10px;">Formatted Output</label>
+      <textarea id="output" style="min-height:300px;" readonly></textarea>
+    </div>
   </div>
+
+  <div class="card" style="margin-top:14px;">
+    <h2>Logic (replicates your VBA)</h2>
+    <div class="hint small">
+      <ul>
+        <li>Find columns by header names: <code>Node Type</code> and <code>PE Purpose</code> (case-insensitive, trims spaces).</li>
+        <li>Apply filter: include rows where <strong>Node Type</strong> cell font is <em>black or automatic</em>. If style is missing (CSV/TSV or XLSX without styles), treated as <em>automatic</em>.</li>
+        <li>Build <strong>summary</strong>: unique Node Type counts, displayed as <code>NAME\t-n</code> (leading hyphen).</li>
+        <li>Build <strong>details</strong>: serial <code>n-</code>, PE Purpose, <code>---</code>, <code>*Planned Tonight*</code> or <code>*Completed*</code> from the selector.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script>
+// Utility: trim & lower
+const norm = s => String(s||'').trim();
+const normLower = s => norm(s).toLowerCase();
+
+function setError(msg){ document.getElementById('err').textContent = msg||''; }
+function log(msg){ const el=document.getElementById('log'); el.textContent += (msg+'\n'); }
+function clearLog(){ document.getElementById('log').textContent=''; }
+function clearInputs(){ document.getElementById('file').value=''; document.getElementById('paste').value=''; clearLog(); setError(''); document.getElementById('output').value=''; }
+
+function findHeaderIndexes(headers){
+  let nodeIdx = -1, purposeIdx = -1;
+  headers.forEach((h,i)=>{
+    const hx = normLower(h);
+    if(hx === 'node type') nodeIdx = i;
+    if(hx === 'pe purpose') purposeIdx = i;
+  });
+  return {nodeIdx, purposeIdx};
+}
+
+function buildOutput(dateStr, rows){
+  // rows: [{nodeType, purpose, fontBlack:true/false}]
+  const useFont = document.getElementById('fontFilter').value === 'black';
+  const filtered = rows.filter(r => useFont ? (r.fontBlack !== false) : true); // include if unknown/true
+
+  if(filtered.length === 0){ setError('No rows after font-color filtering. Try switching filter to "Include all rows".'); return; }
+
+  // Summary counts (unique Node Type)
+  const dict = new Map();
+  filtered.forEach(r => {
+    const k = norm(r.nodeType);
+    if(!k) return;
+    dict.set(k, (dict.get(k)||0) + 1);
+  });
+
+  // Build lines
+  let out = '';
+  out += `Tonight Planned IMS activities ${dateStr}\n\n`;
+  [...dict.keys()].forEach(k => { out += `${k}\t-${dict.get(k)}\n`; });
+  out += `\n\n\n\n*Key PE Details*\n\n`;
+
+  const label = document.getElementById('labelSuffix').value;
+  filtered.forEach((r,i)=>{
+    const n = (i+1)+'-';
+    const desc = norm(r.purpose);
+    out += `${n}\t${desc}\t---\t${label}\n\n`;
+  });
+
+  document.getElementById('output').value = out.trimEnd();
+  setError('');
+}
+
+// Parse pasted grid text (CSV/TSV)
+function processPaste(){
+  clearLog(); setError('');
+  const text = document.getElementById('paste').value.trim();
+  if(!text){ setError('Paste grid text first.'); return; }
+  const lines = text.split(/\r?\n/).filter(l=>l.length>0);
+  // Auto-detect delimiter: tab if present in header, else comma
+  const delim = (lines[0].includes('\t')) ? '\t' : ',';
+  const headers = lines[0].split(delim).map(s=>s.trim());
+  const {nodeIdx, purposeIdx} = findHeaderIndexes(headers);
+  if(nodeIdx<0 || purposeIdx<0){ setError('Headers must include "Node Type" and "PE Purpose".'); return; }
+
+  const rows = lines.slice(1).map(l => {
+    const cols = l.split(delim);
+    return {
+      nodeType: cols[nodeIdx]||'',
+      purpose: cols[purposeIdx]||'',
+      fontBlack: true // pasted text has no style; treat as automatic/black
+    };
+  });
+  log(`Parsed ${rows.length} data rows from pasted text.`);
+  buildOutput(document.getElementById('date').value||'DATE-HERE', rows);
+}
+
+// Parse Excel/CSV file using SheetJS (xlsx)
+function processFile(){
+  clearLog(); setError('');
+  const f = document.getElementById('file').files[0];
+  if(!f){ setError('Choose a file first.'); return; }
+  const ext = (f.name.split('.').pop()||'').toLowerCase();
+  const reader = new FileReader();
+
+  reader.onload = e => {
+    try{
+      const data = e.target.result;
+      let rows = [];
+      if(ext==='csv' || ext==='tsv' || ext==='txt'){
+        const text = new TextDecoder().decode(new Uint8Array(data));
+        // Reuse pasted text handler
+        document.getElementById('paste').value = text;
+        processPaste();
+        return;
+      }
+      // XLSX/XLS path
+      const wb = XLSX.read(data, {type:'array', cellStyles:true});
+      const sheetName = document.getElementById('sheetName').value.trim() || wb.SheetNames[0];
+      const ws = wb.Sheets[sheetName];
+      if(!ws){ setError(`Sheet not found: ${sheetName}`); return; }
+
+      // Get 2D array for values
+      const aoa = XLSX.utils.sheet_to_json(ws, {header:1, blankrows:false});
+      if(!aoa || aoa.length===0){ setError('Empty sheet.'); return; }
+      const headers = (aoa[0]||[]).map(String);
+      const {nodeIdx, purposeIdx} = findHeaderIndexes(headers);
+      if(nodeIdx<0 || purposeIdx<0){ setError('Headers must include "Node Type" and "PE Purpose" in row 1.'); return; }
+
+      // Helper: column letter from index
+      const colLetter = idx => {
+        // idx 0-based
+        let n = idx+1, s='';
+        while(n>0){ let r=(n-1)%26; s = String.fromCharCode(65+r)+s; n = Math.floor((n-1)/26); }
+        return s;
+      };
+
+      const nodeCol = colLetter(nodeIdx);
+      const purpCol = colLetter(purposeIdx);
+
+      // Rows start at Excel row 2
+      for(let r=1; r<aoa.length; r++){
+        const rowVals = aoa[r]||[];
+        const nodeType = String(rowVals[nodeIdx]||'');
+        const purpose = String(rowVals[purposeIdx]||'');
+        // Style detection
+        const addr = nodeCol + (r+1); // e.g., B2
+        const cell = ws[addr];
+        let fontBlack = true; // default: treat missing styles as automatic
+        if(cell && cell.s && cell.s.font && cell.s.font.color){
+          const c = cell.s.font.color.rgb || cell.s.font.color.theme || '';
+          // Accept black variants: FF000000 or 000000 or theme-based default
+          const rgb = String(c).toUpperCase();
+          if(rgb && rgb!=='FF000000' && rgb!=='000000') fontBlack = false;
+        }
+        rows.push({nodeType, purpose, fontBlack});
+      }
+
+      log(`Parsed ${rows.length} data rows from sheet "${sheetName}" of ${f.name}.`);
+      buildOutput(document.getElementById('date').value||'DATE-HERE', rows);
+    }catch(err){
+      console.error(err); setError('Failed to parse file. See console for details.');
+    }
+  };
+
+  reader.onerror = () => setError('File read error.');
+  reader.readAsArrayBuffer(f);
+}
+
+function copyOutput(){ const out=document.getElementById('output').value; if(!out){ setError('No output to copy. Parse data first.'); return;} navigator.clipboard.writeText(out).then(()=>setError('Copied output to clipboard.')).catch(()=>setError('Copy failed.')); }
+function downloadTXT(){ const out=document.getElementById('output').value; if(!out){ setError('No output to download.'); return;} const blob=new Blob([out],{type:'text/plain'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`ims-activities-${(document.getElementById('date').value||'DATE').replace(/\s+/g,'-')}.txt`; a.click(); URL.revokeObjectURL(a.href); }
+function downloadHTML(){ const out=document.getElementById('output').value; if(!out){ setError('No output to download.'); return;} const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><title>IMS Activities</title><style>body{font-family:Segoe UI,Arial,sans-serif;padding:20px;white-space:pre-wrap}</style></head><body>${out.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}</body></html>`; const blob=new Blob([html],{type:'text/html'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`ims-activities-${(document.getElementById('date').value||'DATE').replace(/\s+/g,'-')}.html`; a.click(); URL.revokeObjectURL(a.href); }
+</script>
 </body>
 </html>
