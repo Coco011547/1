@@ -1,33 +1,34 @@
-Tonight Planned IMS activities 20-December-2025
+VVM Status 23 December 2025 completed 11/15 (15 PE Category) 11 PE's Completed, 4 Cancelled
 
-CFX	-1
-Mobileum	-1
-SBC	-3
+CFX	-4
+F5LB	-1
+Firewall	-1
+HSS	-1
+JIO MNP	-1
+SBC	-1
 STP	-2
-CTAS	-1
-
-
 
 
 *Key PE Details*
 
-1-	To Update the PSAP DB for PB Cirlce in PB Circle CFX node for Level 1 Service	---	*Planned Tonight*
+1-	Definition of new AP and MH v-CoreDRA in AP Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Completed*
 
-2-	SIB Node whitelisting in Mobileum SIP FW - Nagpur Supercore	---	*Planned Tonight*
+2-	UPW5 Jio ISBC Integration in MH,MP circle SCSCF Nodes--- Parent CR--C6041303	---	*Completed*
 
-3-	CR to Create Virtual DRA Link in TN and  RJ (8 Nodes) ASBC-- PR CR-C5946686	---	*Planned Tonight*
+3-	New Ifc (46XXX) configuration in MH,MP SCSCF for International Incoming  Call Barring Service via MY JIO APP Parent CR_C6070692	---	*Completed*
 
-4-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL SIB in BR3ISBC13,BR3ISBC14,BR3ISBC15-PARENT CR-C5834262	---	*Planned Tonight*
+4-	MP JIO ISBC Integration in MH,MP circle SCSCF Nodes--Parent CR--C6046929	---	*Completed*
 
-5-	CAC and SLP ID Update in DL1SBC-1 Jio IC TG-55 with Zoom new IP NLD Transit POI connectivity for Delhi Circle.	---	*Planned Tonight*
+5-	New vMRF IP addition in Nagpur DR (MP Circle) ANNC LB & same will keep in DISABLE state CR C6051387	---	*Completed*
 
-6-	STP: Airtel new M2M series routing	---	*Planned Tonight*
+6-	SIB Node whitelisting in Mobileum SIP FW - Bangalore Supercore-ParentCR-C6073135	---	*Completed*
 
-7-	STP: WB-Bihar 5G 13-digit test no routing for HYD-NAG STP--PR-C6068929	---	*Planned Tonight*
+7-	MCC-MNC, PVNI addition in HSS for LTE, VoLTE roaming in M1B1(Mumbai, Kerala Circles)-HSS--Parent CR=C6019647	---	*Completed*
 
-8-	Whitelisting of Lucknow PR & Nagpur DR LB pool in UPE/UPW circle PR CTAS for call forwarding via My JIO Apps_Parent CR-C6038293	---	*Planned Tonight*
+8-	Creation of MSC Code for Jio UPE : 98080~98089 & Deletion of MSC Code for Aircel UPW : 98080~98089 in MUM-KAR.Parent CR--C6078111	---	*Completed*
 
+9-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL SIB in BH ISBC -PARENT CR-C5834262	---	*Completed*
 
+10-	STP: Airtel AP & MH M2M new series routing on STP Sigtran links at MUM-KAR STPs-Parent CR--C6029280	---	*Completed*
 
-
-
+11-	STP: Airtel DEL new M2M series routing in MUM-KAR STPs-ParentCR-C6078932	---	*Completed*
