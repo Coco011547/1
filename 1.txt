@@ -1,34 +1,23 @@
-VVM Status 23 December 2025 completed 11/15 (15 PE Category) 11 PE's Completed, 4 Cancelled
+Tonight Planned IMS activities 27-December-2025
 
-CFX	-4
-F5LB	-1
-Firewall	-1
-HSS	-1
+
+F5-LB	-1
+STP	-1
+MRF/CTAS	-1
+CFX	-1
 JIO MNP	-1
-SBC	-1
-STP	-2
+
+
 
 
 *Key PE Details*
 
-1-	Definition of new AP and MH v-CoreDRA in AP Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Completed*
+1-	New vMRF IP addition in Nagpur DR ((KOL-3 IP, MU-3 IP, NE-4 IP, NE-2 IP) ANNC LB & same will keep in DISABLE state CR C6051387	---	*Planned Tonight*
 
-2-	UPW5 Jio ISBC Integration in MH,MP circle SCSCF Nodes--- Parent CR--C6041303	---	*Completed*
+2-	New DEL&KOL HLR FE25,FE26,FE27 link creation in DEL-KOL STP--Parent CR C5966826//C5994810	---	*Planned Tonight*
 
-3-	New Ifc (46XXX) configuration in MH,MP SCSCF for International Incoming  Call Barring Service via MY JIO APP Parent CR_C6070692	---	*Completed*
+3-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF UPE CIRCLE.	---	*Planned Tonight*
 
-4-	MP JIO ISBC Integration in MH,MP circle SCSCF Nodes--Parent CR--C6046929	---	*Completed*
+4-	To update the PSAP DB for NE Circle in NE Circle CFX node for Level 1 Service	---	*Planned Tonight*
 
-5-	New vMRF IP addition in Nagpur DR (MP Circle) ANNC LB & same will keep in DISABLE state CR C6051387	---	*Completed*
-
-6-	SIB Node whitelisting in Mobileum SIP FW - Bangalore Supercore-ParentCR-C6073135	---	*Completed*
-
-7-	MCC-MNC, PVNI addition in HSS for LTE, VoLTE roaming in M1B1(Mumbai, Kerala Circles)-HSS--Parent CR=C6019647	---	*Completed*
-
-8-	Creation of MSC Code for Jio UPE : 98080~98089 & Deletion of MSC Code for Aircel UPW : 98080~98089 in MUM-KAR.Parent CR--C6078111	---	*Completed*
-
-9-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL SIB in BH ISBC -PARENT CR-C5834262	---	*Completed*
-
-10-	STP: Airtel AP & MH M2M new series routing on STP Sigtran links at MUM-KAR STPs-Parent CR--C6029280	---	*Completed*
-
-11-	STP: Airtel DEL new M2M series routing in MUM-KAR STPs-ParentCR-C6078932	---	*Completed*
+5-	Level Opening for Configuration of New Fixed line series  :  32, 36 & 50 - 06 SDCAs of KA, GJ & HP in NAG-HYD--Parent CR--C6087593	---	*Planned Tonight*
