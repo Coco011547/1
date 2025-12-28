@@ -1,23 +1,29 @@
 Tonight Planned IMS activities 27-December-2025
 
-
-F5-LB	-1
 STP	-1
-MRF/CTAS	-1
-CFX	-1
-JIO MNP	-1
-
-
+CTAS/MRF/LB	-1
+CFX	-4
+SBC	-1
+F5-LB	-1
+Jio MNP	-1
 
 
 *Key PE Details*
 
-1-	New vMRF IP addition in Nagpur DR ((KOL-3 IP, MU-3 IP, NE-4 IP, NE-2 IP) ANNC LB & same will keep in DISABLE state CR C6051387	---	*Planned Tonight*
+1-	New DEL&KOL HLR FE25,FE26,FE27 MAPSET & MRNSET update and GT routing update in DEL-KOL STP--Parent CR C5966826//C5994810	---	*Planned Tonight*
 
-2-	New DEL&KOL HLR FE25,FE26,FE27 link creation in DEL-KOL STP--Parent CR C5966826//C5994810	---	*Planned Tonight*
+2-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF UE & MH CIRCLE. C6088896	---	*Planned Tonight*
 
-3-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF UPE CIRCLE.	---	*Planned Tonight*
+3-	To Update the PSAP DB for GJ circle in GJ circle CFx node for Level 1 Service C6085517	---	*Planned Tonight*
 
-4-	To update the PSAP DB for NE Circle in NE Circle CFX node for Level 1 Service	---	*Planned Tonight*
+4-	CR to configure the new 2 TGs for VIL POI in KL4PSBC01 ( Kerala circle)_ NSA.Parent CR--C6090074	---	*Planned Tonight*
 
-5-	Level Opening for Configuration of New Fixed line series  :  32, 36 & 50 - 06 SDCAs of KA, GJ & HP in NAG-HYD--Parent CR--C6087593	---	*Planned Tonight*
+5-	UPW5 Jio ISBC Integration in MU circle SCSCF Nodes--- Parent CR--C6041303	---	*Planned Tonight*
+
+6-	MP JIO ISBC Integration in MU circle SCSCF Nodes--Parent CR--C6046929	---	*Planned Tonight*
+
+7-	New vMRF IP addition in Nagpur DR (DL-4 IP, HP-3 IP, JK-2 IP, KA-1 IP) ANNC LB & same will keep in DISABLE state CR C6051387	---	*Planned Tonight*
+
+8-	Definition of new AP and MH v-CoreDRA in MH Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Planned Tonight*
+
+9-	Level Opening for Configuration of New Fixed line series  :  32, 36 & 50 - 06 SDCAs of KA, GJ & HP in MUM-KAR --Parent CR--C6087593	---	*Planned Tonight*
