@@ -1,29 +1,18 @@
-Tonight Planned IMS activities 27-December-2025
+Tonight Planned IMS activities January 04, 2026
 
+CFX	-2
+EIR	-1
+MRF	-1
 STP	-1
-CTAS/MRF/LB	-1
-CFX	-4
-SBC	-1
-F5-LB	-1
-Jio MNP	-1
-
 
 *Key PE Details*
 
-1-	New DEL&KOL HLR FE25,FE26,FE27 MAPSET & MRNSET update and GT routing update in DEL-KOL STP--Parent CR C5966826//C5994810	---	*Planned Tonight*
+1-	Definition of new GJ and UE   v-CoreDRA in GJ Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Planned Tonight*
 
-2-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF UE & MH CIRCLE. C6088896	---	*Planned Tonight*
+2-	New Ifc (46XXX) configuration in DL,JK SCSCF for International Incoming  Call Barring Service via MY JIO APP Parent CR_C6070692	---	*Planned Tonight*
 
-3-	To Update the PSAP DB for GJ circle in GJ circle CFx node for Level 1 Service C6085517	---	*Planned Tonight*
+3-	STP: Deletion of old links and addition of new FE's (FE23,FE24,FE25) in HYD-NAG STP C6097112	---	*Planned Tonight*
 
-4-	CR to configure the new 2 TGs for VIL POI in KL4PSBC01 ( Kerala circle)_ NSA.Parent CR--C6090074	---	*Planned Tonight*
+4-	ANN ID-216 CLIP UPLOADING in MH DR vMRF (Announcement will playback to 1600 series if JIO B party subscriber has activated Call forward immediate) Parent CR-C6083874	---	*Planned Tonight*
 
-5-	UPW5 Jio ISBC Integration in MU circle SCSCF Nodes--- Parent CR--C6041303	---	*Planned Tonight*
-
-6-	MP JIO ISBC Integration in MU circle SCSCF Nodes--Parent CR--C6046929	---	*Planned Tonight*
-
-7-	New vMRF IP addition in Nagpur DR (DL-4 IP, HP-3 IP, JK-2 IP, KA-1 IP) ANNC LB & same will keep in DISABLE state CR C6051387	---	*Planned Tonight*
-
-8-	Definition of new AP and MH v-CoreDRA in MH Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Planned Tonight*
-
-9-	Level Opening for Configuration of New Fixed line series  :  32, 36 & 50 - 06 SDCAs of KA, GJ & HP in MUM-KAR --Parent CR--C6087593	---	*Planned Tonight*
+5-	IMEI TAC codes update in EIR Whitelist for  H1N1-M1B1-D1K1 HSS Clusters--Parent CR--C6097196	---	*Planned Tonight*
