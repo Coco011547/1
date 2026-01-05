@@ -1,18 +1,21 @@
-Tonight Planned IMS activities January 04, 2026
+Tonight Planned IMS activities January 05, 2026
 
 CFX	-2
-EIR	-1
-MRF	-1
+GB	-1
+HSS	-1
+SMSC	-1
 STP	-1
 
 *Key PE Details*
 
-1-	Definition of new GJ and UE   v-CoreDRA in GJ Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Planned Tonight*
+1-	Short Code changes in  NGP Internal SMSC for Consent Gateway--Parent CR--C6059970	---	*Planned Tonight*
 
-2-	New Ifc (46XXX) configuration in DL,JK SCSCF for International Incoming  Call Barring Service via MY JIO APP Parent CR_C6070692	---	*Planned Tonight*
+2-	New Ifc (46XXX) configuration in AS,WB & NE SCSCF for International Incoming  Call Barring Service via MY JIO APP Parent CR_C6070692	---	*Planned Tonight*
 
-3-	STP: Deletion of old links and addition of new FE's (FE23,FE24,FE25) in HYD-NAG STP C6097112	---	*Planned Tonight*
+3-	Definition of new GJ and UE  v-CoreDRA in UE Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Planned Tonight*
 
-4-	ANN ID-216 CLIP UPLOADING in MH DR vMRF (Announcement will playback to 1600 series if JIO B party subscriber has activated Call forward immediate) Parent CR-C6083874	---	*Planned Tonight*
+4-	STP: Deletion of old IP routes and addition of new FE's (FE23,FE24,FE25) in HYD-NAG STP C6097112	---	*Planned Tonight*
 
-5-	IMEI TAC codes update in EIR Whitelist for  H1N1-M1B1-D1K1 HSS Clusters--Parent CR--C6097196	---	*Planned Tonight*
+5-	CR for MSF ID 38 and 81 Non live configuration removal in BANG 1 GB MGCF_ParentCR-C6093506	---	*Planned Tonight*
+
+6-	MCC-MNC, PVNI addition in HSS for LTE, VoLTE roaming in H1N1(MH, MP, AP, TN Circles)-HSS--Parent CR=C6019647	---	*Planned Tonight*
