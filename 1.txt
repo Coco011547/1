@@ -1,24 +1,25 @@
-Tonight Planned IMS activities January 13, 2026
+Tonight Planned IMS activities January 20, 2026
 
-CFX	-1
-HSS	-1
-ISBC	-1
+CFX	-2
+CTAS	-1
 MNP	-1
-MRF	-1
+SMSC	-1
 STP	-2
+
 
 *Key PE Details*
 
-1-	Definition of new RJ and UW  v-CoreDRA in UPW Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Planned Tonight*
+1-	STP: PCN update, Inter STP and GT routing update of new HYD-NAG JIO HLR FE's (FE23,FE24,FE25) in DEL-KOL STP C6097112	---	*Planned Tonight*
 
-2-	STP: Deletion of old IP routes and addition of new FE's (FE23,FE24,FE25) in HYD-NAG STP C6097112	---	*Planned Tonight*
+2-	STP: ILD GT routing update for Congo MTN, Zambia MTN & Poland Polkomtel at DEL-KOL STP-ParentCR-C6116797	---	*Planned Tonight*
 
-3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL SIB in BR3ISBC07,BR3ISBC08 ,BR3ISBC10 and BR3ISBC12 ISBC nodes -PARENT CR-C5834262	---	*Planned Tonight*
+3-	Definition of new TN and MP  v-CoreDRA in MP Serving SCSCF for Cx interface- CR- Parent C5913190	---	*Planned Tonight*
 
-4-	ANN ID-216 CLIP UPLOADING in MH DR vMRF (Announcement will playback to 1600 series if JIO B party subscriber has activated Call forward immediate) Parent CR-C6083874	---	*Planned Tonight*
 
-5-	STP: Bihar & West Bengal LRN routing update (remove GTMODID = lrndlt) at all STP	---	*Planned Tonight*
+4-	New Account Creation for Sigmazo Televentures Ltd. - Mumbai External SMSC	---	*Planned Tonight*
 
-6-	MCC-MNC, PVNI addition in HSS for LTE, VoLTE roaming in D2K2(Haryana, JK, Kolkata, WB, NE Circles)-HSS--Parent CR=C6019647	---	*Planned Tonight*
+5-	MOP FOR DR MNP+ DEFINATION IN ALL PAN INDIA PR & DR CTAS.	---	*Planned Tonight*
 
-7-	Level Opening for MSC Code allocation for Kolkata, Tamil nadu and Rajasthan circle in MUM-KAR MNP nodes Parent CR--C6110695	---	*Planned Tonight*
+6-	For Creation of MSC Code - 92910~92919 in Bihar Circle and Deletion of MSC Code - 92910~92919  in Andhra-Pradesh Circle.	---	*Planned Tonight*
+
+7-	To Update the PSAP DB for UPW Circle in UPW circle CFX node for level 1 Service	---	*Planned Tonight*
