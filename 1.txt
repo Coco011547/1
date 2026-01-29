@@ -1,9 +1,17 @@
-Tonight Planned IMS activities January 28, 2026
+Tonight Planned IMS activities January 29, 2026
 
-CTAS	-1
-STP	-1
+CTAS	-2
+SBC	-1
+STP	-2
 
 *Key PE Details*
 
-1-	DR MNP+ IP definition in HR and DL PR CTAS CR C6125334	---	Planned Tonight
-2-	STP: Bihar 5G MGT & LRN + B Number routing on Jio HLR (BH &WB) for IR testing at DEL-KOL & MUM-BLR STPs	---	Planned Tonight
+1-	DR MNP+ IP definition in KOL PR CTAS CR C6125334	---	*Planned Tonight*
+
+2-	DR MNP+ IP definition in WB PR CTAS CR C6125334	---	*Planned Tonight*
+
+3-	STP: Bihar 5G MGT & LRN + B Number routing on Jio HLR (BH &WB) for IR testing at KOL STP-- Parent CR--C6137752	---	*Planned Tonight*
+
+4-	STP: Bihar 5G MGT & LRN + B Number routing on Jio HLR (BH &WB) for IR testing at DEL STP-- Parent CR--C6137752	---	*Planned Tonight*
+
+5-	CAC and SLP ID Update in DL1SBC-1 Jio IC TG-55 with Zoom IP NLD Transit POI connectivity for Delhi Circle.	---	*Planned Tonight*
