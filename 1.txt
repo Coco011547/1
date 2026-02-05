@@ -1,17 +1,19 @@
-Tonight Planned IMS activities January 29, 2026
+Tonight Planned IMS activities February 05, 2026
 
-CTAS	-2
-SBC	-1
+A2P SMSC	-1
+CFX	-1
+Jio MNP	-1
+LB	-1
+SBC	-2
 STP	-2
 
 *Key PE Details*
 
-1-	DR MNP+ IP definition in KOL PR CTAS CR C6125334	---	*Planned Tonight*
-
-2-	DR MNP+ IP definition in WB PR CTAS CR C6125334	---	*Planned Tonight*
-
-3-	STP: Bihar 5G MGT & LRN + B Number routing on Jio HLR (BH &WB) for IR testing at KOL STP-- Parent CR--C6137752	---	*Planned Tonight*
-
-4-	STP: Bihar 5G MGT & LRN + B Number routing on Jio HLR (BH &WB) for IR testing at DEL STP-- Parent CR--C6137752	---	*Planned Tonight*
-
-5-	CAC and SLP ID Update in DL1SBC-1 Jio IC TG-55 with Zoom IP NLD Transit POI connectivity for Delhi Circle.	---	*Planned Tonight*
+1-	New Account Creation for Ravience Digital Pvt Ltd. (Netcore) in KOL External SMSC node--Parent CR -C6148587	---	Planned Tonight
+2-	CR for S8HR definition in KA Outroamer ILD PCSCF	---	Planned Tonight
+3-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF RJ CIRCLE.	---	Planned Tonight
+4-	CR to whitelisted the KA JIO PSBC  in KA Nokia ISBC, Parent CR--C6140233	---	Planned Tonight
+5-	CR to MCC and MNC configuration of Roaming partner in IR out-roamer KA ASBC nodes. IR KA2ASBC09	---	Planned Tonight
+6-	STP: Bihar & WB Employee MGT & LRN+ B Number routing on Jio HLR (BH &WB) at MU-KA, AP-MH & GJ-UE STPs	---	Planned Tonight
+7-	STP: Bihar & WB Employee MGT & LRN+ B Number routing on Jio HLR (BH &WB) at MU-KA, AP-MH & GJ-UE STPs	---	Planned Tonight
+8-	Creation of MSC Code - 87960-87969 for  Airtel Delhi Circle and Deletion of of MSC Code - 87960-87969 Aircel MH Circle - in lucknow Super Core MNP Node, Parent CR--C6144206	---	Planned Tonight
