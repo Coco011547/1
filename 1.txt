@@ -9,11 +9,12 @@ STP	-2
 
 *Key PE Details*
 
-1-	New Account Creation for Ravience Digital Pvt Ltd. (Netcore) in KOL External SMSC node--Parent CR -C6148587	---	Planned Tonight
-2-	CR for S8HR definition in KA Outroamer ILD PCSCF	---	Planned Tonight
-3-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF RJ CIRCLE.	---	Planned Tonight
-4-	CR to whitelisted the KA JIO PSBC  in KA Nokia ISBC, Parent CR--C6140233	---	Planned Tonight
-5-	CR to MCC and MNC configuration of Roaming partner in IR out-roamer KA ASBC nodes. IR KA2ASBC09	---	Planned Tonight
-6-	STP: Bihar & WB Employee MGT & LRN+ B Number routing on Jio HLR (BH &WB) at MU-KA, AP-MH & GJ-UE STPs	---	Planned Tonight
-7-	STP: Bihar & WB Employee MGT & LRN+ B Number routing on Jio HLR (BH &WB) at MU-KA, AP-MH & GJ-UE STPs	---	Planned Tonight
-8-	Creation of MSC Code - 87960-87969 for  Airtel Delhi Circle and Deletion of of MSC Code - 87960-87969 Aircel MH Circle - in lucknow Super Core MNP Node, Parent CR--C6144206	---	Planned Tonight
+1-	New Account Creation for Ravience Digital Pvt Ltd. (Netcore) in KOL External SMSC node--Parent CR -C6148587	---	*Planned Tonight*
+2-	CR for S8HR definition in KA Outroamer ILD PCSCF	---	*Planned Tonight*
+3-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF RJ CIRCLE.	---	*Planned Tonight*
+4-	CR to whitelisted the KA JIO PSBC  in KA Nokia ISBC, Parent CR--C6140233	---	*Planned Tonight*
+5-	CR to MCC and MNC configuration of Roaming partner in IR out-roamer KA ASBC nodes. IR KA2ASBC09	---	*Planned Tonight*
+6-	STP: Bihar & WB Employee MGT & LRN+ B Number routing on Jio HLR (BH &WB) at MU-KA, AP-MH & GJ-UE STPs	---	*Planned Tonight*
+7-	STP: Bihar & WB Employee MGT & LRN+ B Number routing on Jio HLR (BH &WB) at MU-KA, AP-MH & GJ-UE STPs	---	*Planned Tonight*
+8-	Creation of MSC Code - 87960-87969 for  Airtel Delhi Circle and Deletion of of MSC Code - 87960-87969 Aircel MH Circle - in lucknow Super Core MNP Node, Parent CR--C6144206	---	*Planned Tonight*
+
