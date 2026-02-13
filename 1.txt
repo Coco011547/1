@@ -1,20 +1,21 @@
-Tonight Planned IMS activities February 06, 2026
+Tonight Planned IMS activities February 13, 2026
 
-A2P SMSC	-1
-CFX	-3
+CFX	-6
 CTAS	-1
-MRF	-1
-SBC	-2
-STP	-1
+F5LB	-1
+IPSM	-2
+Jio MNP	-1
 
 *Key PE Details*
 
-1-	New Account Creation for Ravience Digital Pvt Ltd. (Netcore) in DL External SMSC node--Parent CR -C6148587	---	Planned Tonight
-2-	ka4jpsbc01 definition in UPE circle Scscf--PR C6127756	---	Planned Tonight
-3-	Definition of new MU3JASBC01 in UPE-SCSCF Parent CR_C6143057	---	Planned Tonight
-4-	CR for S8HR definition in MU Outroamer ILD PCSCF  PR CR  C6150051	---	Planned Tonight
-5-	MOP FOR ADDITION OF MPH6 CARDS IN  PR & DR CTAS PRIMARY POOL OF RJ CIRCLE.  PR CR  C6151924	---	Planned Tonight
-6-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES in MRF PR CR C6151924	---	Planned Tonight
-7-	MOP for CAC addition in KO PSBC for ring central -- PR CR  C6150603	---	Planned Tonight
-8-	CR to MCC and MNC configuration of Roaming partner in IR out-roamer MU2ASBC03 nodes.	---	Planned Tonight
-9-	STP: Bihar & WB Employee MGT & LRN+ B Number routing on Jio HLR (BH &WB) at  AHM-LUK STPs --PR CR  C6151777	---	Planned Tonight
+1-	Definition of new MU3JASBC01 in KOL-SCSCF Parent CR_C6143057	---	Planned Tonight
+2-	To Configure the New RTGRP for Ring Central for RJ TN and KO Circle in KOL-SCSCF Node Parent CR_C6156342	---	Planned Tonight
+3-	ka4jpsbc01 definition in KOL-circle SCSCF nodes--PR C6127756	---	Planned Tonight
+4-	Definition of new MU3JASBC01 in WB-SCSCF Parent CR_C6143057	---	Planned Tonight
+5-	To Configure the New RTGRP for Ring Central for RJ TN and KO Circle in WB-SCSCF Node Parent CR_C6156342	---	Planned Tonight
+6-	ka4jpsbc01 definition in WB-circle SCSCF nodes--PR C6127756	---	Planned Tonight
+7-	New vMRF IP addition in Nagpur DR (AP-21,TN-21,MU-6 Circle) CRBT LB & same will keep in DISABLE state CR C6138257	---	Planned Tonight
+8-	New Volte partner ( Malta-Melita ,Monaco-Monaco Telecom ,Philippines-Globe Telecom ,UAE-DU ,Poland-Polkomtel) configuration in GJ (4/4)  IPSM GW.--Parent CR--C6163220	---	Planned Tonight
+9-	M2M Series Configuration in GJ 4/4 IPSMGW Parent CR_C6141884	---	Planned Tonight
+10-	DR MNP+ IP definition in AP DR CTAS --CR C6125334	---	Planned Tonight
+11-	Level Opening request for New FLN series 32,33 & 36  - 08 SDCAs- AP, MP, KA & J&K	---	Planned Tonight
