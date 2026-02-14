@@ -1,31 +1,39 @@
-Tonight Planned IMS activities February 13, 2026
+*Tonight Planned IMS activities February 14, 2026*
 
-CFX	-6
-CTAS	-1
-F5LB	-1
-IPSM	-2
-Jio MNP	-1
+CFX	-7
+IPSM	-1
+SBC	-1
+STP	-4
+Jio MNP	-2
+
 
 *Key PE Details*
 
-1-	Definition of new MU3JASBC01 in KOL-SCSCF Parent CR_C6143057	---	*Planned Tonight*
+1-	Definition of new MU3JASBC01 in BR-SCSCF	---	*Planned Tonight*
 
-2-	To Configure the New RTGRP for Ring Central for RJ TN and KO Circle in KOL-SCSCF Node Parent CR_C6156342	---	*Planned Tonight*
+2-	To Configure the New RTGRP for Ring Central for RJ TN and KO Circle in BR-SCSCF Node	---	*Planned Tonight*
 
-3-	ka4jpsbc01 definition in KOL-circle SCSCF nodes--PR C6127756	---	*Planned Tonight*
+3-	ka4jpsbc01 definition in BR-circle SCSCF nodes	---	*Planned Tonight*
 
-4-	Definition of new MU3JASBC01 in WB-SCSCF Parent CR_C6143057	---	*Planned Tonight*
+4-	Definition of new MU3JASBC01 in NE-SCSCF	---	*Planned Tonight*
 
-5-	To Configure the New RTGRP for Ring Central for RJ TN and KO Circle in WB-SCSCF Node Parent CR_C6156342	---	*Planned Tonight*
+5-	To Configure the New RTGRP for Ring Central for RJ TN and KO Circle in  NE-SCSCF Node	---	*Planned Tonight*
 
-6-	ka4jpsbc01 definition in WB-circle SCSCF nodes--PR C6127756	---	*Planned Tonight*
+6-	ka4jpsbc01 definition in NE-circle SCSCF nodes	---	*Planned Tonight*
 
-7-	New vMRF IP addition in Nagpur DR (AP-21,TN-21,MU-6 Circle) CRBT LB & same will keep in DISABLE state CR C6138257	---	*Planned Tonight*
+7-	Definition of new v-P/A-DRA  in MH PCSCF.	---	*Planned Tonight*
 
-8-	New Volte partner ( Malta-Melita ,Monaco-Monaco Telecom ,Philippines-Globe Telecom ,UAE-DU ,Poland-Polkomtel) configuration in GJ (4/4)  IPSM GW.--Parent CR--C6163220	---	*Planned Tonight*
+8-	M2M Series Configuration in AP 3/3 IPSMGW	---	*Planned Tonight*
 
-9-	M2M Series Configuration in GJ 4/4 IPSMGW Parent CR_C6141884	---	*Planned Tonight*
+9-	MOP- License for Nokia PSBC NE3PSBC01 & HP2PSBC01	---	*Planned Tonight*
 
-10-	DR MNP+ IP definition in AP DR CTAS --CR C6125334	---	*Planned Tonight*
+10-	STP: Bihar MGT and LRN routing on DEL-KOL STPs from AHM STPs (Non intrusive SCCP routing in place of MTP routing)	---	*Planned Tonight*
 
-11-	Level Opening request for New FLN series 32,33 & 36  - 08 SDCAs- AP, MP, KA & J&K	---	*Planned Tonight*
+11-	STP: Bihar MGT and LRN routing on DEL-KOL STPs from LUCK STPs (Non intrusive SCCP routing in place of MTP routing)	---	*Planned Tonight*
+
+12-	STP: Signaling Firewall link RSVD & MAX TPS increase at AHM-LKW, HYD-NAG, MUM-KAR STPs	---	*Planned Tonight*
+
+13-	STP: Signaling Firewall link RSVD & MAX TPS increase at AHM-LKW, HYD-NAG, MUM-KAR STPs	---	*Planned Tonight*
+
+14-	Level Opening request for New FLN series 32,33 & 36  - 08 SDCAs- AP, MP, KA & J&K in NAG	---	*Planned Tonight*
+15-	Level Opening request for New FLN series 32,33,36,37 & 50 FLN series - 12 SDCAs- WB,HR,GJ,UPE,KA & BR	---	*Planned Tonight*
