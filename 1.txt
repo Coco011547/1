@@ -1,27 +1,33 @@
-*Tonight Planned IMS activities February 22, 2026*
+*Tonight Planned IMS activities March 01, 2026*
 
-A2P SMSC	-2
-CFX	-2
 CTAS	-2
-IPSM	-2
+MNP	-4
 SBC	-1
+SMSC	-1
+STP	-4
 
 *Key PE Details*
 
-1-	New Airtel M2M Series Configuration in MH DR Internal A2P SMSC node	---	*Planned Tonight*
+1-	DR MNP+ IP definition in WB DR CTAS	---	*Planned Tonight*
 
-2-	M2M Series Configuration in MH DR internal A2P SMSC node	---	*Planned Tonight*
+2-	DR MNP+ IP definition in KOL DR CTAS	---	*Planned Tonight*
 
-3-	To Configure the New RTGRP for Ring Central for RJ TN and KO Circle in MUM-SCSCF Node	---	*Planned Tonight*
+3-	New Airtel M2M Series Configuration in MUM Internal A2P SMSC node	---	*Planned Tonight*
 
-4-	To Configure the New RTGRP for Ring Central for RJ TN and KO Circle in AS-SCSCF Node	---	*Planned Tonight*
+4-	Nokia SBC license-   UE5PSBC02 mu1psbc02 wb4psbc01 AS2PSBC01 RJ3PSBC02	---	*Planned Tonight*
 
-5-	DR MNP+ IP definition in HP DR CTAS	---	*Planned Tonight*
+5-	STP: WB Circle EMPLOYEE MSISDN routing on new WB 5G HSS cluster at HYD STP	---	*Planned Tonight*
 
-6-	DR MNP+ IP definition in JK DR CTAS	---	*Planned Tonight*
+6-	STP: WB Circle EMPLOYEE MSISDN routing on new WB 5G HSS cluster at NAG STP	---	*Planned Tonight*
 
-7-	MOP - Sessions License changes for uw1psbc03 SBC node	---	*Planned Tonight*
+7-	STP: M2M Test Number routing at HYD-NAG STP	---	*Planned Tonight*
 
-8-	New Airtel M2M Series Configuration in KA 3/3 IPSM GW	---	*Planned Tonight*
+8-	STP: M2M Test Number routing at HYD-NAG STP	---	*Planned Tonight*
 
-9-	New Airtel M2M Series Configuration in GJ 4/4 IPSM GW	---	*Planned Tonight*
+9-	Level Opening for reallocation of  MSC Code from Aircel (Circle - Maharashtra Goa) to Jio (Circle - Maharashtra Goa) : MSC Code 91390 to 91399 in DEL MNP nodes.	---	*Planned Tonight*
+
+10-	Level Opening request for New FLN Series 32, 33 & 47 FLN series - 05 SDCAs- UPW & AP in DEL MNP nodes	---	*Planned Tonight*
+
+11-	Level Opening for reallocation of  MSC Code from Aircel (Circle - Maharashtra Goa) to Jio (Circle - Maharashtra Goa) : MSC Code 91390 to 91399 in KOL MNP nodes	---	*Planned Tonight*
+
+12-	Level Opening request for New FLN Series 32, 33 & 47 FLN series - 05 SDCAs- UPW & AP in KOL MNP nodes	---	*Planned Tonight*
