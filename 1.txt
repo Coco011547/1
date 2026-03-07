@@ -1,27 +1,33 @@
-VVM Status March 06, 2026 completed 28/36 (NSA) 28 PE's Completed, 7 Cancelled, 1 Revrted
+VVM Status March 06, 2026 completed 31/32 (NSA) 31 PE's Completed, 1 Cancelled
 
-CFX	-1
-CTAS	-1
+A2PSMSC	-1
+CFX	-3
 EIR	-1
 HSS	-1
 JIO MNP	-1
-SBC	-1
+SBC	-2
 STP	-2
 
 *Key PE Details*
 
-1-	Definition of DL,GJ,KL,KO,MH,NE,OR,TN New JIO ISBC in KA circle PR SCSCF Nodes	---	*Completed*
+1-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in KL ISBC	---	*Completed*
 
-2-	STP: West Bengal MGT and LRN routing on DEL-KOL STPs from HYD-NAG, AHM-LKW, MUM-KAR STPs (Non intrusive SCCP routing in place of MTP routing)	---	*Completed*
+2-	Definition of KL SIB in KL and MH-DR SCSCF	---	*Completed*
 
-3-	STP: West Bengal MGT and LRN routing on DEL-KOL STPs from HYD-NAG, AHM-LKW, MUM-KAR STPs (Non intrusive SCCP routing in place of MTP routing)	---	*Completed*
+3-	New account creation for Route Mobile in Bangalore External SMSC	---	*Completed*
 
-4-	NSA:: IMS MoP of CAC Allow for SIP TG-08 for VI as NLDO @UE5PSBC02	---	*Completed*
+4-	Routing update for non-live JIO NLD - Airtel MU Access TG 62 in MU PSBC01	---	*Completed*
 
-5-	MOP FOR MIME FEATURE ACTIVIATION IN ALL PAN INDIA PR & DR CTAS.	---	*Completed*
+5-	STP: ILD GT routing for new Operators -Croatia Telemach in HYD STP	---	*Completed*
 
-6-	Add ICR MCCMNC in ICR_Roam of DefaultEPSRSI and all circle specific RSI in D1K1(Delhi,HP,PB,AS,OR,BR Circles)	---	*Completed*
+6-	STP: ILD GT routing for new Operators -Croatia Telemach in NAG STP	---	*Completed*
 
-7-	IMEI TAC codes update in EIR Whitelist for H1N1-M1B1-D1K1 HSS Clusters	---	*Completed*
+7-	Definition of DL,GJ,KL,KO,MH,NE,OR,TN New JIO ISBC in UPE circle PR SCSCF Nodes	---	*Completed*
 
-8-	Level Opening request for New FLN Series Configuration : 32, 33, 36, 37, 39 & 52 FLN series - 26 SDCAs- BR,PB,RJ,UPE,JK, MH & WB	---	*Completed*
+8-	Definition of new MP&TN v-P/A-DRA  in MP PCSCF.	---	*Completed*
+
+9-	IMEI TAC codes update in EIR Whitelist for D1K1-D2K2 HSS Clusters	---	*Completed*
+
+10-	Add ICR MCCMNC in ICR_Roam of DefaultEPSRSI and all circle specific RSI in D1K1(Delhi,HP,PB,AS,OR,BR Circles)	---	*Completed*
+
+11-	Level Opening request for New FLN Series Configuration : 32, 33, 36, 37, 39 & 52 FLN series - 26 SDCAs- BR,PB,RJ,UPE,JK, MH & WB in DEL MNP node.	---	*Completed*
