@@ -1,24 +1,28 @@
-*Tonight Planned IMS activities March 10, 2026*
+VVM Status March 14, 2026 completed 19/24 (NSA) 19 PE's Completed, 3 Cancelled, 2 Abandoned
 
-A2P SMSC	-1
-CFX	-3
-SBC	-2
+CFX	-1
+CTAS	-2
+JIO MNP	-2
+LB/MRF/CTAS	-1
+SBC	-1
 STP	-2
 
 *Key PE Details*
 
-1-	UE SIB definition in MUM PCSCF	---	*Planned Tonight*
+1-	GJ , WB , UE & MHPR  SIB integrations in BR IBCF Nodes	---	*Completed*
 
-2-	Definition of DL,GJ,KL,KO,MH,NE,OR,TN New JIO ISBC in DL circle PR SCSCF Nodes	---	*Planned Tonight*
+2-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF DL CIRCLE.	---	*Completed*
 
-3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MP ISBC	---	*Planned Tonight*
+3-	Feature activation in CTAS to support Proprietary header for Mercedes Benz IOT device in UPE PR & DR CTAS	---	*Completed*
 
-4-	New Airtel M2M Series Configuration in KOL Internal A2P SMSC node	---	*Planned Tonight*
+4-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MP ISBC	---	*Completed*
 
-5-	Definition of new MU&KA v-P/A-DRA  in MU PCSCF.	---	*Planned Tonight*
+5-	MOP FOR IP WHITELISTING OF vMRF Signalling IP pool in UPE Circle PR & DR  CTAS.	---	*Completed*
 
-6-	STP: WB Employee MGT & LRN+ B Number routing on Jio HLR (BH & WB) at DEL-KOL STPs	---	*Planned Tonight*
+6-	STP: ILD Operator/IPX DU GT (97155) migration from ILD MGCF (s-10000/s10001) to direct STP Sigtran links at AHM STPs	---	*Completed*
 
-7-	STP: WB Employee MGT & LRN+ B Number routing on Jio HLR (BH & WB) at DEL-KOL STPs	---	*Planned Tonight*
+7-	STP: ILD Operator/IPX DU GT (97155) migration from ILD MGCF (s-10000/s10001) to direct STP Sigtran links at LCK STPs	---	*Completed*
 
-8-	Increase of License by 20K & CAC  increase 11 to 31 and CRF changes for TG 24 APTNA9BFEC7 in BH05PSBC03	---	*Planned Tonight*
+8-	Level opening for configuration of New MSC code (92920 - 92929) allocation to Airtel - KL. Location - Bangalore	---	*Completed*
+
+9-	Level opening for configuration of New MSC code (92920 - 92929) allocation to Airtel - KL. Location - Mumbai	---	*Completed*
