@@ -1,27 +1,26 @@
-*Tonight Planned IMS activities March 17, 2026*
+Tonight Planned IMS activities March 18, 2026
 
-CFX	-1
+A2P SMSC	-1
+CFX	-2
 EIR	-1
-MNP	-2
+Jio MNP	-2
+MRF/CTAS	-1
 SBC	-1
-STP	-4
 
 *Key PE Details*
 
-1-	Definition of new GJ&UE v-P/A-DRA  in GJ PCSCF.	---	Planned Tonight
+1-	New Airtel M2M Series Configuration in DEL Internal and External A2P SMSC node	---	*Planned Tonight*
 
-2-	IMEI TAC codes update in EIR Whitelist for M2B2, D2K2, A1L1 HSS Clusters	---	Planned Tonight
+2-	MOP for convert the MPH6 cards from CRBT NB to CONF services in DL-MRF & add them in to PR & DR CTAS primary pool of DL CIRCLE	---	*Planned Tonight*
 
-3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MP ISBC	---	Planned Tonight
+3-	Definition of new GJ&UE v-P/A-DRA  in GJ PCSCF.	---	*Planned Tonight*
 
-4-	STP: West Bengal test MGT (Full length) deletion at DEL-KOL STPs used for IR testing	---	Planned Tonight
+4-	Vodafone Routing DB Implementation in TN1PSBC01	---	*Planned Tonight*
 
-5-	STP: West Bengal test MGT (Full length) deletion at DEL-KOL STPs used for IR testing	---	Planned Tonight
+5-	To Update the PSAP DB for MU Circle in MU Circle CFX node for level 1 Service	---	*Planned Tonight*
 
-6-	STP: West Bengal MGT and LRN routing (cutover) on new 5G HSS at DEL-KOL STPs	---	Planned Tonight
+6-	IMEI TAC codes update in EIR Whitelist forH1N1,M1B1,D1K1 HSS Clusters	---	*Planned Tonight*
 
-7-	STP: West Bengal MGT and LRN routing (cutover) on new 5G HSS at DEL-KOL STPs	---	Planned Tonight
+7-	Level opening for configuration of New MSC code (92920 - 92929) allocation to Airtel - KL in DEL Jio MNP nodes	---	*Planned Tonight*
 
-8-	Level opening for configuration of New MSC code (92920 - 92929) allocation to Airtel - KL in AHM Jio MNP nodes	---	Planned Tonight
-
-9-	Level opening for configuration of New MSC code (92920 - 92929) allocation to Airtel - KL in LUK Jio MNP nodes	---	Planned Tonight
+8-	Level opening for configuration of New MSC code (92920 - 92929) allocation to Airtel - KL in KOL Jio MNP nodes	---	*Planned Tonight*
