@@ -1,26 +1,38 @@
-Tonight Planned IMS activities March 18, 2026
+Tonight Planned IMS activities March 25, 2026
 
-A2P SMSC	-1
-CFX	-2
-EIR	-1
+CFX	-6
 Jio MNP	-2
-MRF/CTAS	-1
+JIO MNP+	-1
 SBC	-1
+STP	-4
 
 *Key PE Details*
 
-1-	New Airtel M2M Series Configuration in DEL Internal and External A2P SMSC node	---	*Planned Tonight*
+1-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in UPE ISBC	---	*Planned Tonight*
 
-2-	MOP for convert the MPH6 cards from CRBT NB to CONF services in DL-MRF & add them in to PR & DR CTAS primary pool of DL CIRCLE	---	*Planned Tonight*
+2-	Definition of new GJ&UE v-P/A-DRA  in UPE PCSCF.	---	*Planned Tonight*
 
-3-	Definition of new GJ&UE v-P/A-DRA  in GJ PCSCF.	---	*Planned Tonight*
+3-	UE SIB definition in MP PCSCF	---	*Planned Tonight*
 
-4-	Vodafone Routing DB Implementation in TN1PSBC01	---	*Planned Tonight*
+4-	Definition of DL,GJ,KL,KO,MH,NE,OR,TN New JIO ISBC in AS circle PR SCSCF Nodes	---	*Planned Tonight*
 
-5-	To Update the PSAP DB for MU Circle in MU Circle CFX node for level 1 Service	---	*Planned Tonight*
+5-	Definition of DL,GJ,KL,KO,MH,NE,OR,TN New JIO ISBC in OR circle PR SCSCF Nodes	---	*Planned Tonight*
 
-6-	IMEI TAC codes update in EIR Whitelist forH1N1,M1B1,D1K1 HSS Clusters	---	*Planned Tonight*
+6-	UE SIB definition in JK PCSCF	---	*Planned Tonight*
 
-7-	Level opening for configuration of New MSC code (92920 - 92929) allocation to Airtel - KL in DEL Jio MNP nodes	---	*Planned Tonight*
+7-	STP: Bihar & West Bengal Employee Full Length MGT & LRN+ B Number Deletion used for testing at MUM STP	---	*Planned Tonight*
 
-8-	Level opening for configuration of New MSC code (92920 - 92929) allocation to Airtel - KL in KOL Jio MNP nodes	---	*Planned Tonight*
+8-	STP: Bihar & West Bengal Employee Full Length MGT & LRN+ B Number Deletion used for testing at KAR STP	---	*Planned Tonight*
+
+9-	STP: Delhi and Chandigarh BSNL SSTP PCN addition for MTNL Mumbai and Delhi GT/LRN to enable resilient routing at All Jio STP	---	*Planned Tonight*
+
+10-	STP: Delhi and Chandigarh BSNL SSTP PCN addition for MTNL Mumbai and Delhi GT/LRN to enable resilient routing at All Jio STP	---	*Planned Tonight*
+
+11-	JK SIP Firewall to enabled in JK Serving SCSCF to cater traffic through PR SIP FW	---	*Planned Tonight*
+
+12-	Level opening request for the new Airtel Codes as 9282 (0-9) - GSM - Assam LRN 2725 and deletion of LRN  3020 previously alloted to Airtel TN 9282 (0-9)-
+Location : Kolkata	---	*Planned Tonight*
+
+13-	Level opening request for the new Airtel Codes as 9282 (0-9) - GSM - Assam LRN 2725 and deletion of LRN  3020 previously alloted to Airtel TN 9282 (0-9)-Location : Hyderabad	---	*Planned Tonight*
+
+14-	RAM upgrade activity in MNP+ DR node from 384 GB to 512 GB of HP DL380 hardware for TPS capacity expansion	---	*Planned Tonight*
