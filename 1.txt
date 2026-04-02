@@ -10,26 +10,26 @@ SBC	-1
 
 *Key PE Details*
 
-1-	CR for routing of new SC 1855 in NAG MGCF node end for MP & CG	---	Planned Tonight
+1-	CR for routing of new SC 1855 in NAG MGCF node end for MP & CG	---	*Planned Tonight*
 
-2-	TPS Changes for Aggregator (CERF Solutions Private Limited ) accounts in Bangalore External SMSC	---	Planned Tonight
+2-	TPS Changes for Aggregator (CERF Solutions Private Limited ) accounts in Bangalore External SMSC	---	*Planned Tonight*
 
-3-	NSA PE To Update the PSAP DB for DL Circle in DL circle CFX node for Level 1 Service	---	Planned Tonight
+3-	NSA PE To Update the PSAP DB for DL Circle in DL circle CFX node for Level 1 Service	---	*Planned Tonight*
 
-4-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in BH Serving SCSF nodes.	---	Planned Tonight
+4-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in BH Serving SCSF nodes.	---	*Planned Tonight*
 
-5-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in NE Serving SCSF nodes.	---	Planned Tonight
+5-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in NE Serving SCSF nodes.	---	*Planned Tonight*
 
-6-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in AP Serving SCSF nodes.	---	Planned Tonight
+6-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in AP Serving SCSF nodes.	---	*Planned Tonight*
 
-7-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in TN Serving SCSF nodes.	---	Planned Tonight
+7-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in TN Serving SCSF nodes.	---	*Planned Tonight*
 
-8-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in WB Serving SCSF nodes.	---	Planned Tonight
+8-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in WB Serving SCSF nodes.	---	*Planned Tonight*
 
-9-	IMEI TAC codes update in EIR Whitelist for  M2B2, D2K2, A1L1 HSS Clusters	---	Planned Tonight
+9-	IMEI TAC codes update in EIR Whitelist for  M2B2, D2K2, A1L1 HSS Clusters	---	*Planned Tonight*
 
-10-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MH ISBC	---	Planned Tonight
+10-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MH ISBC	---	*Planned Tonight*
 
-11-	CR to whitelisted the Pan India JIO PSBC in Multiple JIO ISBC Circles.	---	Planned Tonight
+11-	CR to whitelisted the Pan India JIO PSBC in Multiple JIO ISBC Circles.	---	*Planned Tonight*
 
-12-	Backup & restoration activity at HYDERABAD Jio_AUSF	---	Planned Tonight
+12-	Backup & restoration activity at HYDERABAD Jio_AUSF	---	*Planned Tonight*
