@@ -1,35 +1,25 @@
-Tonight Planned IMS activities April 02, 2026
+Tonight Planned IMS activities April 03, 2026
 
-A2P SMSC	-1
-ALU	-1
-AUSF	-1
-CFX	-6
+CFX	-2
 EIR	-1
-JIO ISBC	-1
-SBC	-1
+Jio SBC	-1
+SBC	-3
+SIB CFX	-1
 
 *Key PE Details*
 
-1-	CR for routing of new SC 1855 in NAG MGCF node end for MP & CG	---	*Planned Tonight*
+1-	Definition of new MH & AP v-P/A-DRA  in MH PCSCF.	---	*Planned Tonight*
 
-2-	TPS Changes for Aggregator (CERF Solutions Private Limited ) accounts in Bangalore External SMSC	---	*Planned Tonight*
+2-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in MH-DR SCSF nodes.	---	*Planned Tonight*
 
-3-	NSA PE To Update the PSAP DB for DL Circle in DL circle CFX node for Level 1 Service	---	*Planned Tonight*
+3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MH ISBC	---	*Planned Tonight*
 
-4-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in BH Serving SCSF nodes.	---	*Planned Tonight*
+4-	IMEI TAC codes update in EIR Whitelist for  H1N1,M1B1,D1K1 HSS Clusters	---	*Planned Tonight*
 
-5-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in NE Serving SCSF nodes.	---	*Planned Tonight*
+5-	CR to whitelisted the Pan India JIO PSBC in GJ NOKIA ISBC followed by multiple Circles.	---	*Planned Tonight*
 
-6-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in AP Serving SCSF nodes.	---	*Planned Tonight*
+6-	To Reduce 6K CAC from TG 77 in MU PSBC02	---	*Planned Tonight*
 
-7-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in TN Serving SCSF nodes.	---	*Planned Tonight*
+7-	CR to whitelisted the Pan India JIO PSBC IPs in JIO ISBC of GJ Circles.	---	*Planned Tonight*
 
-8-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in WB Serving SCSF nodes.	---	*Planned Tonight*
-
-9-	IMEI TAC codes update in EIR Whitelist for  M2B2, D2K2, A1L1 HSS Clusters	---	*Planned Tonight*
-
-10-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MH ISBC	---	*Planned Tonight*
-
-11-	CR to whitelisted the Pan India JIO PSBC in Multiple JIO ISBC Circles.	---	*Planned Tonight*
-
-12-	Backup & restoration activity at HYDERABAD Jio_AUSF	---	*Planned Tonight*
+8-	UE Nokia ISBC Definition in PAN INDIA & DR SIB	---	*Planned Tonight*
