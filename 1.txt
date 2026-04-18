@@ -1,25 +1,36 @@
-Tonight Planned IMS activities April 03, 2026
+Tonight Planned IMS activities April 18, 2026
 
+A2P SMSC	-1
 CFX	-2
-EIR	-1
-Jio SBC	-1
-SBC	-3
-SIB CFX	-1
+Jio MNP	-2
+Jio SIB	-1
+JIO SIB	-1
+MGCF	-1
+SBC	-2
+STP	-2
 
 *Key PE Details*
 
-1-	Definition of new MH & AP v-P/A-DRA  in MH PCSCF.	---	*Planned Tonight*
+1-	STP: M2M long length GT (91575XXXXxxxxxx) deletion at MUM STP and reconfigure with short length i.e. 91575XXXX	---	*Planned Tonight*
 
-2-	Configuration of SC 1855 as area base code and New RTGRP definition of Zoom operator in MH-DR SCSF nodes.	---	*Planned Tonight*
+2-	Definition of Jio PSBC in DL SCSCF	---	*Planned Tonight*
 
-3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MH ISBC	---	*Planned Tonight*
+3-	STP: M2M long length GT (91575XXXXxxxxxx) deletion at KAR STP and reconfigure with short length i.e. 91575XXXX	---	*Planned Tonight*
 
-4-	IMEI TAC codes update in EIR Whitelist for  H1N1,M1B1,D1K1 HSS Clusters	---	*Planned Tonight*
+4-	Unused SPC deletion from Bangalore GB MGCF-02 MSF ID-22 & 24 for MA-RMS upgrade	---	*Planned Tonight*
 
-5-	CR to whitelisted the Pan India JIO PSBC in GJ NOKIA ISBC followed by multiple Circles.	---	*Planned Tonight*
+5-	Definition of Jio PSBC in MAHA IBCF	---	*Planned Tonight*
 
-6-	To Reduce 6K CAC from TG 77 in MU PSBC02	---	*Planned Tonight*
+6-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in AS ISBC	---	*Planned Tonight*
 
-7-	CR to whitelisted the Pan India JIO PSBC IPs in JIO ISBC of GJ Circles.	---	*Planned Tonight*
+7-	CR to whitelisted the Pan India JIO PSBC in AS NOKIA ISBC	---	*Planned Tonight*
 
-8-	UE Nokia ISBC Definition in PAN INDIA & DR SIB	---	*Planned Tonight*
+8-	TPS Changes for Aggregator accounts (Netcore) in Bangalore External SMSC	---	*Planned Tonight*
+
+9-	CR to whitelisted the Pan India JIO PSBC IPs in JIO ISBC of HR Circles.	---	*Planned Tonight*
+
+10-	CR for WB_DL_JK_BH_KA_RJ_UW_Jio_ISBC_Intigration in HR SIB Clusters	---	*Planned Tonight*
+
+11-	Level Opening request-  New 32 FLN series for 03 SDCA JHUMARITALAIYA(JMRL-6534) BR, BETUL(BTUL-7141) & BURHANPUR(BPUR-7325). Location - GUJ	---	*Planned Tonight*
+
+12-	Level Opening request-  New 32 FLN series for 03 SDCA JHUMARITALAIYA(JMRL-6534) BR, BETUL(BTUL-7141) & BURHANPUR(BPUR-7325). Location - LUK	---	*Planned Tonight*
