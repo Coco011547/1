@@ -1,31 +1,17 @@
-*Planned Tonight* IMS activities April 19, 2026
+*Planned Tonight* IMS activities April 27, 2026
 
-CFX	-4
-CTAS	-1
-IPSM	-1
-JIO SIB	-2
+Jio SBC	-1
+Jio SIB	-1
 SBC	-3
 
 *Key PE Details*
 
-1-	Definition of Jio PSBC in AP SCSCF	---	*Planned Tonight*
+1-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in WB ISBC	---	*Planned Tonight*
 
-2-	WB_DL_JK_BR_KA_RJ_UW Jio ISBC Integration in BR SCSCF	---	*Planned Tonight*
+2-	CR to whitelisted the Pan India JIO PSBC in WB NOKIA ISBC	---	*Planned Tonight*
 
-3-	Feature activation in CTAS to support Proprietary header for Mercedes Benz IOT device in MP PR & DR CTAS	---	*Planned Tonight*
+3-	CR to Create Virtual DRA Link in GJ ASBC	---	*Planned Tonight*
 
-4-	GJ , WB , UE & MHPR  SIB integrations in MP IBCF Nodes	---	*Planned Tonight*
+4-	CR for WB_DL_JK_BH_KA_RJ_UW_Jio_ISBC_Intigration in MH SIB Clusters	---	*Planned Tonight*
 
-5-	Definition of Jio PSBC in MP IBCF	---	*Planned Tonight*
-
-6-	CR for VoLTE Outbound Roaming- New Partner Configuration in TN (2/2) IPSM	---	*Planned Tonight*
-
-7-	CR to Create Virtual DRA Link in MUM ASBC	---	*Planned Tonight*
-
-8-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in AS ISBC	---	*Planned Tonight*
-
-9-	CR to whitelisted the Pan India JIO PSBC in AS NOKIA ISBC	---	*Planned Tonight*
-
-10-	CR to whitelisted the Pan India JIO PSBC IPs in JIO ISBC of KOL Circles.	---	*Planned Tonight*
-
-11-	CR for WB_DL_JK_BH_KA_RJ_UW_Jio_ISBC_Intigration in KOL SIB Clusters	---	*Planned Tonight*
+5-	JIO_PSBC_Intigration_in_Live_JIO_SIB_Nodes	---	*Planned Tonight*
