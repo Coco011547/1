@@ -1,17 +1,39 @@
-*Planned Tonight* IMS activities April 27, 2026
+*VVM Status* April 19, 2026 completed 39/47 (NSA) 39 PE's Completed, 9 Cancelled
 
-Jio SBC	-1
-Jio SIB	-1
-SBC	-3
+A2PSMSC	-1
+CFX	-2
+IPSM	-2
+JIO SIB	-2
+MRF	-1
+SBC	-2
+STP	-4
 
 *Key PE Details*
 
-1-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in WB ISBC	---	*Planned Tonight*
+1-	Definition of new v-ADRA  in MU-DR  SCSCF	---	*Completed*
 
-2-	CR to whitelisted the Pan India JIO PSBC in WB NOKIA ISBC	---	*Planned Tonight*
+2-	New Airtel M2M Series Configuration in Lucknow IPSMGW for JK (2/2)	---	*Completed*
 
-3-	CR to Create Virtual DRA Link in GJ ASBC	---	*Planned Tonight*
+3-	CR for VoLTE Outbound Roaming- New Partner Configuration in JK (2/2) IPSM	---	*Completed*
 
-4-	CR for WB_DL_JK_BH_KA_RJ_UW_Jio_ISBC_Intigration in MH SIB Clusters	---	*Planned Tonight*
+4-	CR to Create Virtual DRA Link in GJ ASBC	---	*Completed*
 
-5-	JIO_PSBC_Intigration_in_Live_JIO_SIB_Nodes	---	*Planned Tonight*
+5-	CR to Create Virtual DRA Link in UPE ASBC	---	*Completed*
+
+6-	STP: M2M long length GT (91575XXXXxxxxxx) deletion at DEL STP and reconfigure with short length i.e. 91575XXXX	---	*Completed*
+
+7-	STP: M2M long length GT (91575XXXXxxxxxx) deletion at KOL STP and reconfigure with short length i.e. 91575XXXX	---	*Completed*
+
+8-	STP: Routing change for BSNL LRN -912493 from PC 1849 to BSNL PC 1400 (IM366078567) at DEL STP	---	*Completed*
+
+9-	STP: Routing change for BSNL LRN -912493 from PC 1849 to BSNL PC 1400 (IM366078567) at KOL STP	---	*Completed*
+
+10-	MOP FOR CONVERT THE MPH6 CARDS FROM CRBT NB TO CONF SERVICES & ADD THEM IN TO PR & DR CTAS PRIMARY POOL OF MP CIRCLE.	---	*Completed*
+
+11-	New Airtel M2M Series Configuration in Lucknow A2P SMSC for UE circle	---	*Completed*
+
+12-	To Update the PSAP DB for KL Circle in KL Circle CFX node for level 1 Service  ( Kerala circle)	---	*Completed*
+
+13-	CR for WB_DL_JK_BH_KA_RJ_UW_Jio_ISBC_Intigration in JK SIB Clusters	---	*Completed*
+
+14-	JIO_PSBC_Intigration_in_Live_HP_JIO_SIB_Nodes	---	*Completed*
