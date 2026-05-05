@@ -1,32 +1,24 @@
 *Planned Tonight* IMS activities May 05, 2026
 
 CFX	-1
-EIR	-1
 IPSM	-2
 Jio SIB	-3
 SBC	-2
-STP	-2
 
 *Key PE Details*
 
-1-	STP: ILD Syniverse GT migration on Signaling Firewall at KOL STP	---	*Planned Tonight*
+1-	CR to whitelisted the Pan India JIO PSBC in OR NOKIA ISBC	---	*Planned Tonight*
 
-2-	STP: ILD Syniverse GT migration on Signaling Firewall at DEL STP	---	*Planned Tonight*
+2-	New Airtel M2M Series Configuration in Lucknow IPSMGW for MHDR (5/5)	---	*Planned Tonight*
 
-3-	CR to whitelisted the Pan India JIO PSBC in OR NOKIA ISBC	---	*Planned Tonight*
+3-	Message Manipulation configuration in i-CSCF to convert SIP 403 (SIP/2.0 403 Forbidden - 6034) to SIP 480-KL serving SCSCF	---	*Planned Tonight*
 
-4-	New Airtel M2M Series Configuration in Lucknow IPSMGW for MHDR (5/5)	---	*Planned Tonight*
+4-	CR for VoLTE Outbound Roaming- New Partner Configuration in MH-DR (5/5) IPSM	---	*Planned Tonight*
 
-5-	Message Manipulation configuration in i-CSCF to convert SIP 403 (SIP/2.0 403 Forbidden - 6034) to SIP 480-KL serving SCSCF	---	*Planned Tonight*
+5-	Sessions License change for Nokia PSBC KA1PSBC01 & TN1PSBC03	---	*Planned Tonight*
 
-6-	CR for VoLTE Outbound Roaming- New Partner Configuration in MH-DR (5/5) IPSM	---	*Planned Tonight*
+6-	To Configure the SC 1855 in Pan India Level 1 IFC Configuration in Pan India SIB Nodes	---	*Planned Tonight*
 
-7-	Sessions License change for Nokia PSBC KA1PSBC01 & TN1PSBC03	---	*Planned Tonight*
+7-	JIO_PSBC_Intigration_in_Live_MUM_JIO_SIB_Nodes	---	*Planned Tonight*
 
-8-	IMEI TAC codes update in EIR Whitelist for  M2B2, D2K2, A1L1 HSS Clusters	---	*Planned Tonight*
-
-9-	To Configure the SC 1855 in Pan India Level 1 IFC Configuration in Pan India SIB Nodes	---	*Planned Tonight*
-
-10-	JIO_PSBC_Intigration_in_Live_MUM_JIO_SIB_Nodes	---	*Planned Tonight*
-
-11-	To Update the PSAP DB for MUM Circle in MUM Circle SIB for level 1 Service	---	*Planned Tonight*
+8-	To Update the PSAP DB for MUM Circle in MUM Circle SIB for level 1 Service	---	*Planned Tonight*
