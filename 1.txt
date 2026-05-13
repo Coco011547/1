@@ -1,30 +1,43 @@
-*Planned Tonight* IMS activities May 12, 2026
+*Planned Tonight* IMS activities May 13, 2026
 
 CFX	-1
-JIO SIB	-2
-LB	-1
-MRF	-1
-SBC	-3
+CTAS	-1
+F5 LB	-1
+HSS	-1
+Jio SIB	-5
+SBC	-5
 STP	-2
 
 *Key PE Details*
 
-1-	Definition of new v-A-DRA  in KL Serving SCSCF	---	*Planned Tonight*
+1-	CR to whitelisted the Pan India JIO PSBC in OR NOKIA ISBC	---	*Planned Tonight*
 
-2-	MOP FOR MUMBAI DR CRBT IP POOL WHITELISTING in MAHA Circle MRF/vMRF.	---	*Planned Tonight*
+2-	CR to whitelisted the Pan India JIO PSBC in RJ NOKIA ISBC	---	*Planned Tonight*
 
-3-	CR to Create Virtual DRA Link in UPE ASBC	---	*Planned Tonight*
+3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in OR ISBC	---	*Planned Tonight*
 
-4-	CR to whitelisted the Pan India JIO PSBC in RJ NOKIA ISBC	---	*Planned Tonight*
+4-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in RJ ISBC	---	*Planned Tonight*
 
-5-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in RJ ISBC	---	*Planned Tonight*
+5-	CTAS DR IP addition in BSF and MyJio Call Forwarding VIP in Announcement LB - Karnataka	---	*Planned Tonight*
 
-6-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in KOL STP	---	*Planned Tonight*
+6-	Removal of 3 Conference cards(mp1mrf087_1,mp1mrf087_5,mp1mrf087_6) from traffic in MP Circle PR and DR CTAS nodes.	---	*Planned Tonight*
 
-7-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in KAR STP	---	*Planned Tonight*
+7-	Definition of new v-A-DRA  in KA Serving SCSCF	---	*Planned Tonight*
 
-8-	CTAS DR IP addition in BSF and MyJio Call Forwarding VIP in Announcement LB - Lucknow	---	*Planned Tonight*
+8-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in AHM STP	---	*Planned Tonight*
 
-9-	To Configure the SC 1855 in HR Level 1 IFC Configuration in HR SIB Nodes	---	*Planned Tonight*
+9-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in LKW STP	---	*Planned Tonight*
 
-10-	To Configure the New JIO PSBC dedicated RTGRP configuration in HR-SIB nodes	---	*Planned Tonight*
+10-	CR to Create Virtual DRA Link in DEL and KOL Super core circle ASBC	---	*Planned Tonight*
+
+11-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming in A1L1(GJ, RJ, UPE, UPW Circles)-HSS	---	*Planned Tonight*
+
+12-	To Configure the SC 1855 in WB Level 1 IFC Configuration in WB SIB Nodes	---	*Planned Tonight*
+
+13-	To Configure the New JIO PSBC dedicated RTGRP configuration in WB-SIB nodes	---	*Planned Tonight*
+
+14-	To Update the PSAP DB for WB Circle in WB Circle SIB for level 1 Service	---	*Planned Tonight*
+
+15-	DEL & KOL vDRA Intigration in DEL & KOL SuperCore Circle SIB Nodes	---	*Planned Tonight*
+
+16-	New PR  BTAS integration in WB SIB for Sikkim	---	*Planned Tonight*
