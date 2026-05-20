@@ -1,43 +1,23 @@
-*Planned Tonight* IMS activities May 13, 2026
+*Planned Tonight* IMS activities May 20, 2026
 
-CFX	-1
-CTAS	-1
-F5 LB	-1
+CFX	-2
 HSS	-1
-Jio SIB	-5
-SBC	-5
-STP	-2
+Jio SIB	-2
+MRF	-1
+SBC	-1
 
 *Key PE Details*
 
-1-	CR to whitelisted the Pan India JIO PSBC in OR NOKIA ISBC	---	*Planned Tonight*
+1-	WB_DL_JK_BR_KA_RJ_UW Jio ISBC Integration in UPW SCSCF	---	*Planned Tonight*
 
-2-	CR to whitelisted the Pan India JIO PSBC in RJ NOKIA ISBC	---	*Planned Tonight*
+2-	Definition of new v-A-DRA  in OR Serving SCSCF	---	*Planned Tonight*
 
-3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in OR ISBC	---	*Planned Tonight*
+3-	CR to Create Virtual DRA Link in HP circle ASBC	---	*Planned Tonight*
 
-4-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in RJ ISBC	---	*Planned Tonight*
+4-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming in A1L1(GJ, RJ, UPE, UPW Circles)-HSS	---	*Planned Tonight*
 
-5-	CTAS DR IP addition in BSF and MyJio Call Forwarding VIP in Announcement LB - Karnataka	---	*Planned Tonight*
+5-	PE for Public Awareness about Cyber Crime through 'Caller Tune' Campaign by Indian Cyber Crime Coordination_PAN INDIA	---	*Planned Tonight*
 
-6-	Removal of 3 Conference cards(mp1mrf087_1,mp1mrf087_5,mp1mrf087_6) from traffic in MP Circle PR and DR CTAS nodes.	---	*Planned Tonight*
+6-	DEL & KOL vDRA Intigration in DL Circle SIB Nodes	---	*Planned Tonight*
 
-7-	Definition of new v-A-DRA  in KA Serving SCSCF	---	*Planned Tonight*
-
-8-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in AHM STP	---	*Planned Tonight*
-
-9-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in LKW STP	---	*Planned Tonight*
-
-10-	CR to Create Virtual DRA Link in DEL and KOL Super core circle ASBC	---	*Planned Tonight*
-
-11-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming in A1L1(GJ, RJ, UPE, UPW Circles)-HSS	---	*Planned Tonight*
-
-12-	To Configure the SC 1855 in WB Level 1 IFC Configuration in WB SIB Nodes	---	*Planned Tonight*
-
-13-	To Configure the New JIO PSBC dedicated RTGRP configuration in WB-SIB nodes	---	*Planned Tonight*
-
-14-	To Update the PSAP DB for WB Circle in WB Circle SIB for level 1 Service	---	*Planned Tonight*
-
-15-	DEL & KOL vDRA Intigration in DEL & KOL SuperCore Circle SIB Nodes	---	*Planned Tonight*
-
-16-	New PR  BTAS integration in WB SIB for Sikkim	---	*Planned Tonight*
+7-	DEL & KOL vDRA Integration in HR Circle SIB Nodes	---	*Planned Tonight*
