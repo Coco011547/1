@@ -1,23 +1,50 @@
-*Planned Tonight* IMS activities May 20, 2026
+*Planned Tonight* IMS activities May 21, 2026
 
-CFX	-2
-HSS	-1
-Jio SIB	-2
-MRF	-1
-SBC	-1
+CFX	-3
+CTAS	-1
+Jio SIB	-3
+MNP	-4
+SBC	-7
+STP	-2
 
 *Key PE Details*
 
-1-	WB_DL_JK_BR_KA_RJ_UW Jio ISBC Integration in UPW SCSCF	---	*Planned Tonight*
+1-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) at AHM STP	---	*Planned Tonight*
 
-2-	Definition of new v-A-DRA  in OR Serving SCSCF	---	*Planned Tonight*
+2-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) at LKW STP	---	*Planned Tonight*
 
-3-	CR to Create Virtual DRA Link in HP circle ASBC	---	*Planned Tonight*
+3-	CR to Create Virtual DRA Link in PB circle ASBC	---	*Planned Tonight*
 
-4-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming in A1L1(GJ, RJ, UPE, UPW Circles)-HSS	---	*Planned Tonight*
+4-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in WB ISBC	---	*Planned Tonight*
 
-5-	PE for Public Awareness about Cyber Crime through 'Caller Tune' Campaign by Indian Cyber Crime Coordination_PAN INDIA	---	*Planned Tonight*
+5-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in OR ISBC	---	*Planned Tonight*
 
-6-	DEL & KOL vDRA Intigration in DL Circle SIB Nodes	---	*Planned Tonight*
+6-	CR to whitelisted the Pan India JIO PSBC in WB NOKIA ISBC	---	*Planned Tonight*
 
-7-	DEL & KOL vDRA Integration in HR Circle SIB Nodes	---	*Planned Tonight*
+7-	CR to whitelisted the Pan India JIO PSBC in OR NOKIA ISBC	---	*Planned Tonight*
+
+8-	WB_DL_JK_BR_KA_RJ_UW Jio ISBC Integration in MU SCSCF	---	*Planned Tonight*
+
+9-	Definition of new v-A-DRA  in OR Serving SCSCF	---	*Planned Tonight*
+
+10-	To Update the PSAP DB for AP Circle in AP circle CFX node for Level 1 Service	---	*Planned Tonight*
+
+11-	Backup & restoration activity at JIO_ISBC_KL_Kozikhode_MCN CORE CL-1	---	*Planned Tonight*
+
+12-	Backup & restoration activity at JIO_ISBC_AGW_KL_Kozikhode_MCN AGW CL-1	---	*Planned Tonight*
+
+13-	MOP FOR NEW CRBT AS IP ADDITION IN UPE PR CTAS FOR TESTING PURPOSE .	---	*Planned Tonight*
+
+14-	CR to whitlisting Pan India SIB in AS_JIO_SIB_Nodes	---	*Planned Tonight*
+
+15-	DEL & KOL vDRA Intigration in JK Circle SIB Nodes	---	*Planned Tonight*
+
+16-	DEL & KOL vDRA Intigration in HP Circle SIB Nodes	---	*Planned Tonight*
+
+17-	Level opening for reallocation of MSC code from RCOM (Circle - Kolkata) 9143(0-9)  to Airtel (Circle - Kerela) 9143(0-9) and from Aircel (Circle - Goa MH) 9762(0-9)  to Airtel (Circle - UPW) 9762(0-9) Location- Mumbai	---	*Planned Tonight*
+
+18-	Level opening for reallocation of MSC code from RCOM (Circle - Kolkata) 9143(0-9)  to Airtel (Circle - Kerela) 9143(0-9) and from Aircel (Circle - Goa MH) 9762(0-9)  to Airtel (Circle - UPW) 9762(0-9) Location- Delhi	---	*Planned Tonight*
+
+19-	Level opening for reallocation of MSC code from RCOM (Circle - Kolkata) 9143(0-9)  to Airtel (Circle - Kerela) 9143(0-9) and from Aircel (Circle - Goa MH) 9762(0-9)  to Airtel (Circle - UPW) 9762(0-9) Location- Kolkata	---	*Planned Tonight*
+
+20-	Level opening for reallocation of MSC code from RCOM (Circle - Kolkata) 9143(0-9)  to Airtel (Circle - Kerela) 9143(0-9) and from Aircel (Circle - Goa MH) 9762(0-9)  to Airtel (Circle - UPW) 9762(0-9) Location- Bangalore	---	*Planned Tonight*
