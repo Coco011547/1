@@ -17,8 +17,4 @@ STP	-2
 
 5-	STP: ILD HUB Mumbai A2P & P2P GT routing from STP for incoming SMS on ILD roaming links--DEL STP at Noida (DL1)	---	*Planned Tonight*
 
-6-	To Update the PSAP DB for MH Circle in MH Circle CFX node for Level 1 Service	---	*Planned Tonight*
-
-7-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming A1L1(GJ, RJ, UPE, UPW Circles) HSS at Naroda GIDC AHD AG3	---	*Planned Tonight*
-
-8-	Message Manipulation configuration in i-CSCF to convert SIP 403 (SIP/2.0 403 Forbidden - 6034) to SIP 480-MH serving SCSCF at Mauda Nagpur IDC	---	*Planned Tonight*
+6-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming A1L1(GJ, RJ, UPE, UPW Circles) HSS at Naroda GIDC AHD AG3	---	*Planned Tonight*
