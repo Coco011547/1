@@ -1,20 +1,24 @@
-*Planned Tonight* IMS activities May 28, 2026
+*Planned Tonight* IMS activities May 29, 2026
 
-CFX	-1
+CFX	-3
 HSS	-1
 SBC	-2
 STP	-2
 
 *Key PE Details*
 
-1-	STP: Comfone GT update for recently migrated on Direct Sigtran links (Multiple operators) in NAG STP at Mauda Nagpur IDC	---	*Planned Tonight*
+1-	Definition of new v-Core-DRA  in DL Serving SCSCF at Noida AG3 location	---	*Planned Tonight*
 
-2-	STP: Comfone GT update for recently migrated on Direct Sigtran links (Multiple operators) in HYD STP at JDC HYD (AP04) location	---	*Planned Tonight*
+2-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in JK ISBC at JammuSAG2 location	---	*Planned Tonight*
 
-3-	CR to Create Virtual DRA Link in OR circle ASBC at Bhubaneshwar location	---	*Planned Tonight*
+3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in JK ISBC at Srinagar SAG2 location	---	*Planned Tonight*
 
-4-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in HP ISBC at Shimla AG3 location	---	*Planned Tonight*
+4-	STP: ILD HUB Mumbai A2P & P2P GT routing from STP for incoming SMS on ILD roaming links KOL STP at Salt Lake (KOL1)	---	*Planned Tonight*
 
-5-	To Update the PSAP DB for DL Circle in DL circle CFX Node as well as DL Circle SIB Nodes	---	*Planned Tonight*
+5-	STP: ILD HUB Mumbai A2P & P2P GT routing from STP for incoming SMS on ILD roaming links--DEL STP at Noida (DL1)	---	*Planned Tonight*
 
-6-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming M1B1 HSS at MUM IDC (MU1) location	---	*Planned Tonight*
+6-	To Update the PSAP DB for MH Circle in MH Circle CFX node for Level 1 Service	---	*Planned Tonight*
+
+7-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming A1L1(GJ, RJ, UPE, UPW Circles) HSS at Naroda GIDC AHD AG3	---	*Planned Tonight*
+
+8-	Message Manipulation configuration in i-CSCF to convert SIP 403 (SIP/2.0 403 Forbidden - 6034) to SIP 480-MH serving SCSCF at Mauda Nagpur IDC	---	*Planned Tonight*
