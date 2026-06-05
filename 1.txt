@@ -20,8 +20,8 @@ STP	-2
 
 6-	New HTTP Account creation in Delhi Internal  SMSC at Vikaspuri  (DL2) location	---	*Planned Tonight*
 
-7-	CR to whitelisting Pan India SIB in WB_JIO_ISBC Nodes at Kharaghpur MCN AG3 location	---	*Planned Tonight*
+7-	CR to whitelisting Pan India SIB in WB_JIO_ISBC Nodes at Kharaghpur MCN AG3 location	---	*QA Team will perform*
 
-8-	Level opening for reallocation of MSC code from BSNL CDMA (Circle - AP) 9180(0-9)  to Airtel (Circle - Karnataka) 9180(0-9) Location- Nagpur	---	*Planned Tonight*
+8-	Level opening for reallocation of MSC code from BSNL CDMA (Circle - AP) 9180(0-9)  to Airtel (Circle - Karnataka) 9180(0-9) Location- Nagpur	---	*PQA Team will perform*
 
-9-	Level opening for reallocation of MSC code from BSNL CDMA (Circle - AP) 9180(0-9)  to Airtel (Circle - Karnataka) 9180(0-9) Location- Mumbai	---	*Planned Tonight*
+9-	Level opening for reallocation of MSC code from BSNL CDMA (Circle - AP) 9180(0-9)  to Airtel (Circle - Karnataka) 9180(0-9) Location- Mumbai	---	*QA Team will perform*
