@@ -1,20 +1,27 @@
-*Planned Tonight* IMS activities May 29, 2026
+*Planned Tonight* IMS activities June 05, 2026
 
-CFX	-3
-HSS	-1
-SBC	-2
+CFX	-1
+MNP	-2
+SBC	-3
+SMSC	-1
 STP	-2
 
 *Key PE Details*
 
-1-	Definition of new v-Core-DRA  in DL Serving SCSCF at Noida AG3 location	---	*Planned Tonight*
+1-	Definition of new v-Core-DRA  in JK Serving SCSCF at Noida AG3	---	*Planned Tonight*
 
-2-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in JK ISBC at JammuSAG2 location	---	*Planned Tonight*
+2-	To run INFOSEC script and mitigate the Dirty Frag vulnerabilities in UPE PSBC at Janakipuram Lucknow (UE1)	---	*Planned Tonight*
 
-3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in JK ISBC at Srinagar SAG2 location	---	*Planned Tonight*
+3-	To run INFOSEC script and mitigate the Dirty Frag vulnerabilities in RJ PSBC at Jaipur (RJ1)	---	*Planned Tonight*
 
-4-	STP: ILD HUB Mumbai A2P & P2P GT routing from STP for incoming SMS on ILD roaming links KOL STP at Salt Lake (KOL1)	---	*Planned Tonight*
+4-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in KOL STP at Salt Lake (KOL1)	---	*Planned Tonight*
 
-5-	STP: ILD HUB Mumbai A2P & P2P GT routing from STP for incoming SMS on ILD roaming links--DEL STP at Noida (DL1)	---	*Planned Tonight*
+5-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in KAR STP at Whitefiled Banglore (KA1)	---	*Planned Tonight*
 
-6-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming A1L1(GJ, RJ, UPE, UPW Circles) HSS at Naroda GIDC AHD AG3	---	*Planned Tonight*
+6-	New HTTP Account creation in Delhi Internal  SMSC at Vikaspuri  (DL2) location	---	*Planned Tonight*
+
+7-	CR to whitelisting Pan India SIB in WB_JIO_ISBC Nodes at Kharaghpur MCN AG3 location	---	*Planned Tonight*
+
+8-	Level opening for reallocation of MSC code from BSNL CDMA (Circle - AP) 9180(0-9)  to Airtel (Circle - Karnataka) 9180(0-9) Location- Nagpur	---	*Planned Tonight*
+
+9-	Level opening for reallocation of MSC code from BSNL CDMA (Circle - AP) 9180(0-9)  to Airtel (Circle - Karnataka) 9180(0-9) Location- Mumbai	---	*Planned Tonight*
