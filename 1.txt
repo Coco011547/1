@@ -1,32 +1,32 @@
-*Planned Tonight* IMS activities June 06, 2026
+*Planned Tonight* IMS activities June 13, 2026
 
+ALU	-1
 CFX	-1
-IPSM	-2
-Jio SBC	-1
-MNP	-2
+Jio SIB	-2
+LB	-2
 SBC	-3
 STP	-2
 
 *Key PE Details*
 
-1-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in AHM STP at Naroda GIDC AHD  (GJ1)	---	*Planned Tonight*
+1-	Pool Modification in Announcement LB - Delhi Super Core	---	*VVM Team will perform*
 
-2-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in LKW STP at Janakipuram Luckn ow (UE1)	---	*Planned Tonight*
+2-	CR to Create Virtual DRA Link in DL circle ASBC at Noida AG3 Location	---	*Planned Tonight*
 
-3-	New VoLTE roaming partner configuration in KOL (5/5) IPSM GW at Salt Lake (KOL1)	---	*Planned Tonight*
+3-	DB traffic &160 E1's f RJIO MH O/G 160E1's inter circle connectivity with VIL Mumbai  in nagpur ALU MGCF01	---	*Planned Tonight*
 
-4-	New VoLTE roaming partner configuration in KAR 3/3 IPSM nodes at Banglore Peniya RCOM MCN (560022	---	*Planned Tonight*
+4-	New HTTP VIP Creation in BAN SMSC LB at Whitefiled Banglore (KA1)	---	*Planned Tonight*
 
-5-	To update the PSAP DB for Level 1 Service for MP&CG Circle at Mauda Nagpur IDC	---	*Planned Tonight*
+5-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in AHM STP at Naroda GIDC AHD  (GJ1)	---	*Planned Tonight*
 
-6-	To run INFOSEC script and mitigate the Dirty Frag vulnerabilities in MP PSBC at Bhopal MCN location	---	*Planned Tonight*
+6-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in LUK STP at Janakipuram Luckn ow (UE1)	---	*Planned Tonight*
 
-7-	To run INFOSEC script and mitigate the Dirty Frag vulnerabilities in MH PSBC at Nagpur Hingna AG3 location	---	*Planned Tonight*
+7-	CR to whitelisted the Pan India JIO PSBC in UW NOKIA ISBC at Agra SAG2,Meerut MCN location	---	*Planned Tonight*
 
-8-	CR to Create Virtual DRA Link in MP circle ASBC at RCOM MCN   Bhopal SAG2 location	---	*Planned Tonight*
+8-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in UW ISBC at Agra SAG2,Meerut MCN location	---	*Planned Tonight*
 
-9-	Level opening for reallocation of MSC code from BSNL CDMA (Circle - AP) 9180(0-9)  to Airtel (Circle - Karnataka) 9180(0-9) Location- Lucknow at Kanpur MCN(UE4)	---	*QA Team will perform*
+9-	To Update the ECGI detail for KOL Circle in KO Circle ECSCF for Emergency Calling Service	---	*Planned Tonight*
 
-10-	CR to whitelisting Pan India SIB in MU_JIO_ISBC Nodes at Mumbai RCP TC23 location	---	*QA Team will perform*
+10-	To Configure the New RTGRP for KA Airtel FIX NLD traffic in HP SIB Nodes (Noida)	---	*QA Team will perform*
 
-11-	Level opening for reallocation of MSC code from BSNL CDMA (Circle - AP) 9180(0-9)  to Airtel (Circle - Karnataka) 9180(0-9) Location- Delhi at DL3 RCOM MCN Lawrence Road	---	*QA Team will perform*
+11-	To Configure the New RTGRP for KA Airtel FIX NLD traffic in HR SIB Nodes (Vikaspuri AG3)	---	*QA Team will perform*
