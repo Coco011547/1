@@ -1,32 +1,30 @@
-*Planned Tonight* IMS activities June 14, 2026
+*Planned Tonight* IMS activities June 21, 2026
 
-CFX	-2
-Jio SIB	-2
-LB	-1
-SBC	-3
-SMSC	-1
-STP	-2
+CFX	-1
+F5LB	-1
+IPSM	-1
+JIO SIB	-2
+MRF	-1
+SBC	-4
 
 *Key PE Details*
 
-1-	New HTTP VIP Creation in NAG SMSC LB at Mauda-Nagpur-IDC (MH2)	---	*Planned Tonight*
+1-	Definition of Jio PSBC in MH SCSCF at Mauda Nagpur IDC	---	*Planned Tonight*
 
-2-	CR to Create Virtual DRA Link in DL circle ASBC at Noida AG3 Location	---	*Planned Tonight*
+2-	New VoLTE roaming partner configuration in DL IPSM GW at Vikaspuri  (DL2) Location	---	*Planned Tonight*
 
-3-	Definition of new Jio PSBC in Delhi circle PCSCF at Noida AG3,Vikaspuri AG3 Location	---	*Planned Tonight*
+3-	New HTTP VIP Creation in Mumbai DR SMSC LB at MUM IDC -2 DR	---	*Planned Tonight*
 
-4-	New HTTP Account creation in Hyderabad Internal SMSC at JDC HYD (AP04)	---	*Planned Tonight*
+4-	CR to whitelisted the Pan India JIO PSBC in UW NOKIA ISBC at Agra SAG2,Meerut MCN location	---	*Planned Tonight*
 
-5-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in HYD STP at JDC HYD (AP04)	---	*Planned Tonight*
+5-	CR to Create Virtual DRA Link in KOL circle ASBC at Salt Lake,Ichhapur	---	*Planned Tonight*
 
-6-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in NAG STP at Mauda - Nagpur - IDC (MH2)	---	*Planned Tonight*
+6-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in UW ISBC at Agra SAG2,Meerut MCN location	---	*Planned Tonight*
 
-7-	Definition of Jio PSBC in HP SCSCF at Noida AG3	---	*Planned Tonight*
+7-	MU MPH6 card  Conversion from CRBT to Conference service at MUM IDC (MU1)	---	*Planned Tonight*
 
-8-	CR to whitelisted the Pan India JIO PSBC in UW NOKIA ISBC at Agra SAG2,Meerut MCN location	---	*Planned Tonight*
+8-	JIO ASBC Whitelisting in PB SIB Nodes at NOIDA	---	*Planned Tonight*
 
-9-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in UW ISBC at Agra SAG2,Meerut MCN location	---	*Planned Tonight*
+9-	JIO ASBC Whitelisting in UPW SIB Nodes at Meerut MCN	---	*Planned Tonight*
 
-10-	To Configure the New RTGRP for KA Airtel FIX NLD traffic in PB SIB Nodes (Noida)	---	*QA Team will perform*
-
-11-	To Configure the New RTGRP for KA Airtel FIX NLD traffic in WB SIB Nodes (KOL MCN1)	---	*QA Team will perform*
+10-	CR to Create Virtual DRA Link in NE circle ASBC at Shillong SAG02 , Guwahati SAG2	---	*Planned Tonight*
