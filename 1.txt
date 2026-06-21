@@ -1,11 +1,11 @@
 *Planned Tonight* IMS activities June 21, 2026
 
 CFX	-1
-F5LB	-1
 IPSM	-1
+F5LB	-1
+SBC	-3
 JIO SIB	-2
 MRF	-1
-SBC	-4
 
 *Key PE Details*
 
@@ -26,5 +26,3 @@ SBC	-4
 8-	JIO ASBC Whitelisting in PB SIB Nodes at NOIDA	---	*Planned Tonight*
 
 9-	JIO ASBC Whitelisting in UPW SIB Nodes at Meerut MCN	---	*Planned Tonight*
-
-10-	CR to Create Virtual DRA Link in NE circle ASBC at Shillong SAG02 , Guwahati SAG2	---	*Planned Tonight*
