@@ -1,29 +1,37 @@
-*Planned Tonight* IMS activities June 22, 2026
+*Planned Tonight* IMS activities June 30, 2026
 
-SBC	-1
-CTAS	-2
-STP	-2
-LB	-1
 CFX	-1
-MRF	-1
-JIO SIB	-1
+SBC	-4
+STP	-4
+JIO SIB	-4
+SMSC	-1
 
 *Key PE Details*
 
-1-	CR to Create Virtual DRA Link in KOL circle ASBC at Salt Lake,Ichhapur Location	---	*Planned Tonight*
+1-	Definition of Jio PSBC in WB IBCF at Asansol SAG2	---	*Planned Tonight*
 
-2-	STP: Deletion of IP routes, unwanted links & Association cleanup and Creation of Phase 4 HLR FE links for  Kol STP at Salt Lake (KOL1)	---	*Planned Tonight*
+2-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in PB ISBC at Jalandhar MCN, Chandigarh MCN.	---	*Planned Tonight*
 
-3-	STP: Deletion of IP routes, unwanted links & Association cleanup and Creation of Phase 4 HLR FE links for Del STP at Noida (DL1)	---	*Planned Tonight*
+3-	CR for whitelisting TN,MH,MU,MP,KA,BR,KL,WB,GJ & UE SIB in MP ISBC at Ashima mall Bhopal SAG2,Indore MCN,RCOM MCN  Bhopal SAG2	---	*Planned Tonight*
 
-4-	New HTTP VIP Creation in Mumbai SMSC LB at MUM IDC (MU1)	---	*Planned Tonight*
+4-	CR to whitelisted the Pan India JIO PSBC in PB NOKIA ISBC at Jalandhar MCN, Chandigarh MCN.	---	*Planned Tonight*
 
-5-	Definition of new v-Core-DRA  in WB-Serving SCSCF at Salt Lake (KOL1)	---	*Planned Tonight*
+5-	CR to whitelisted the Pan India JIO PSBC in MP NOKIA ISBC at Ashima mall Bhopal SAG2,Indore MCN,RCOM MCN  Bhopal SAG2	---	*Planned Tonight*
 
-6-	MOP FOR CYBER CRIME ANNOUNCMENT PERCENTAGE CHANGE  WITH TRING-TRING RBT.	---	*Planned Tonight*
+6-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in LKW STP at Janakipuram Luckn ow (UE1)	---	*Planned Tonight*
 
-7-	CTAS: New CRBT-AS IP addition in Delhi supercore PR-CTAS and DR-CTAS for traffic	---	*Planned Tonight*
+7-	STP: Comfone GT migration from ILD MGCF to Direct Sigtran links (Multiple operators) in AHM STP at Naroda GIDC AHD  (GJ1)	---	*Planned Tonight*
 
-8-	To Optimized the NLD routing DB for AP Circle in AP Serving CTAS	---	*QA Team will perform*
+8-	STP: BH & MP M2M new level addition at All STP	---	*Planned Tonight*
 
-9-	JIO ASBC Whitelisting in MP SIB Nodes at Bhopal MCN2 Location	---	*QA Team will perform*
+9-	STP: BH & MP M2M new level addition at All STP	---	*Planned Tonight*
+
+10-	Account Creation for Tata Communications Kaleyra in Delhi External SMSC	---	*Planned Tonight*
+
+11-	Configure the new area base code 155265 for NE Circle in AP SIB Nodes at (HYD JDC)	---	*QA Team Will Perform*
+
+12-	To Configure the SC 155243 in AP circle SIB nodes as IFC configuration at HYD JDC	---	*QA Team Will Perform*
+
+13-	To Configure the New RTGRP for KA Airtel FIX NLD traffic in AP SIB Nodes (HYD JDC)	---	*QA Team Will Perform*
+
+14-	To Update the Percentage Changes for KA Airtel Local and NLD Traffic in Pan India SIB Nodes	---	*QA Team Will Perform*
