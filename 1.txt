@@ -29,16 +29,16 @@ SBC	-4
 
 9-	MCC MNC, PVNI addition in HSS for LTE, VoLTE roaming in H1N1 (MH, MP, AP, TN Circles) HSS at Hyderabad-1 (LB Nagar)	---	*Planned Tonight*
 
-10-	New Level opening in Bangalore site UPCGW and LRN update for level	---	*Planned Tonight*
+10-	New Level opening in Bangalore site UPCGW and LRN update for level	---	*QA Team will perform*
 
-11-	Level Opening request-  New 32 FLN series for GOALPARA(3663),MANGALDOI(3713),RAMANATHPURAM(4567) & 33 FLN series for NAGAON(3672) & SIBSAGAR(3772) - 05 SDCAs. Location - Mauda - Nagpur - IDC (MH2)	---	*Planned Tonight*
+11-	Level Opening request-  New 32 FLN series for GOALPARA(3663),MANGALDOI(3713),RAMANATHPURAM(4567) & 33 FLN series for NAGAON(3672) & SIBSAGAR(3772) - 05 SDCAs. Location - Mauda - Nagpur - IDC (MH2)	---	*QA Team will perform*
 
-12-	Level Opening request-  New 32 FLN series for GOALPARA(3663),MANGALDOI(3713),RAMANATHPURAM(4567) & 33 FLN series for NAGAON(3672) & SIBSAGAR(3772) - 05 SDCAs. Location - Chennai Guindy MCN (TN6)	---	*Planned Tonight*
+12-	Level Opening request-  New 32 FLN series for GOALPARA(3663),MANGALDOI(3713),RAMANATHPURAM(4567) & 33 FLN series for NAGAON(3672) & SIBSAGAR(3772) - 05 SDCAs. Location - Chennai Guindy MCN (TN6)	---	*QA Team will perform*
 
-13-	Jio ISBC Integration in AP SIB Clusters at JDC HYD (AP04)	---	*Planned Tonight*
+13-	Jio ISBC Integration in AP SIB Clusters at JDC HYD (AP04)	---	*QA Team will perform*
 
-14-	JIO ASBC Integration in AP SIB Clusters at JDC HYD (AP04)	---	*Planned Tonight*
+14-	JIO ASBC Integration in AP SIB Clusters at JDC HYD (AP04)	---	*QA Team will perform*
 
-15-	CR to whitelisted the Pan India JIO PSBC in AP JIO ISBC at LB Nagar - Hyderabad (AP01)	---	*Planned Tonight*
+15-	CR to whitelisted the Pan India JIO PSBC in AP JIO ISBC at LB Nagar - Hyderabad (AP01)	---	*QA Team will perform*
 
-16-	CR to whitelisted the Pan India JIO PSBC in DL JIO ISBC at DL3 RCOM MCN	---	*Planned Tonight*
+16-	CR to whitelisted the Pan India JIO PSBC in DL JIO ISBC at DL3 RCOM MCN	---	*QA Team will perform*
