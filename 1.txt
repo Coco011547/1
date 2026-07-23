@@ -1,13 +1,13 @@
 *Planned Tonight* IMS activities July 23, 2026
 
-CFX	-1
-SBC	-4
-CTAS	-4
-HSS	-1
-Jio UPCGW	-1
-Jio MNP	-2
-Jio SBC	-2
-Jio SIB	-2
+CFX	-  1
+SBC	-  3
+CTAS - 4
+HSS	-  1
+Jio UPCGW	-  1
+Jio MNP	-  2
+Jio SBC	-  2
+Jio SIB	-  2
 
 
 *Key PE Details*
