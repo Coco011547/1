@@ -1,32 +1,18 @@
-*Planned Tonight* IMS activities July 24, 2026
+*Planned Tonight* IMS activities July 31, 2026
 
-CTAS	-6
-JIO ISBC -2
-Jio MNP	-2
-JIO SIB	-2
+CFX	-1
+MRF	-1
+SBC	-1
+STP	-2
 
 *Key PE Details*
 
-1-	To Configure the three IOCL Number for DL circle PR-DR CTAS nodes at Noida (DL1)	---	*Planned Tonight*
+1-	Definition of Jio PSBC in TN SCSCF at Siruseri-Chennai AG3	---	*Planned Tonight*
 
-2-	To Configure the three IOCL Number for AP circle PR-DR CTAS nodes at Siruseri-Chennai (TN3)	---	*Planned Tonight*
+2-	MOP FOR MUMBAI DR CRBT IP POOL WHITELISTING in MP Circle MRF/Vmrf at Ashima mall Bhopal (MP1)	---	*Planned Tonight*
 
-3-	To Configure the three IOCL Number for KA circle PR-DR CTAS nodes at Whitefield Bangalore (KA1)	---	*Planned Tonight*
+3-	CR to whitelisted the Pan India JIO PSBC in TN NOKIA ISBC at Madurai AG2	---	*Planned Tonight*
 
-4-	To Configure the three IOCL Number for KL circle PR-DR CTAS nodes at Whitefiled Banglore (KA1)	---	*Planned Tonight*
+4-	STP: Airtel Delhi & Maharashtra M2M level update and new level definition to accommodate 5 new levels at ALL STPs	---	*Planned Tonight*
 
-5-	To Configure the Four IOCL Number for TN circle PR-DR CTAS nodes at Siruseri-Chennai (TN3)	---	*Planned Tonight*
-
-6-	Short Code as a Public helpline to the Home & Hill Affairs Department, Government of West Bengal 155334, 155335, 155337 & 155339 in KO ,WB circle CTAS	---	*Planned Tonight*
-
-7-	CR to whitelisted the Pan India JIO PSBC in PB JIO ISBC at LUDHIANA MCN	---	*QA team will perform*
-
-8-	CR to whitelisted the Pan India JIO PSBC in HR JIO ISBC at Karnal MCN	---	*QA team will perform*
-
-9-	Level Opening request-  New 32 FLN series for GOALPARA(3663),MANGALDOI(3713),RAMANATHPURAM(4567) & 33 FLN series for NAGAON(3672) & SIBSAGAR(3772) - 05 SDCAs. Lucknow Location -at  Kanpur MCN(UE4)	---	*QA team will perform*
-
-10-	Level Opening request-  New 32 FLN series for GOALPARA(3663),MANGALDOI(3713),RAMANATHPURAM(4567) & 33 FLN series for NAGAON(3672) & SIBSAGAR(3772) - 05 SDCAs. Ahmedabad Location - at Surat MCN	---	*QA team will perform*
-
-11-	Jio ISBC Integration in KL SIB Clusters at Bangalore AG3	---	*QA team will perform*
-
-12-	JIO ASBC Integration in KL SIB Clusters at Bangalore AG3	---	*QA team will perform*
+5-	STP: Airtel Delhi & Maharashtra M2M level update and new level definition to accommodate 5 new levels at ALL STPs	---	*Planned Tonight*
