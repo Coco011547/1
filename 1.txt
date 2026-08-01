@@ -1,18 +1,20 @@
-*Planned Tonight* IMS activities July 31, 2026
+*Planned Tonight* IMS activities August 01, 2026
 
 CFX	-1
 MRF	-1
-SBC	-1
+SBC	-2
 STP	-2
 
 *Key PE Details*
 
 1-	Definition of Jio PSBC in TN SCSCF at Siruseri-Chennai AG3	---	*Planned Tonight*
 
-2-	MOP FOR MUMBAI DR CRBT IP POOL WHITELISTING in MP Circle MRF/Vmrf at Ashima mall Bhopal (MP1)	---	*Planned Tonight*
+2-	CR to whitelisted the Pan India JIO PSBC in MU NOKIA ISBC at  MUM_IDC01	---	*Planned Tonight*
 
 3-	CR to whitelisted the Pan India JIO PSBC in TN NOKIA ISBC at Madurai AG2	---	*Planned Tonight*
 
-4-	STP: Airtel Delhi & Maharashtra M2M level update and new level definition to accommodate 5 new levels at ALL STPs	---	*Planned Tonight*
+4-	STP: Airtel Delhi & Maharashtra M2M level update and new level definition to accommodate 5 new levels at AHM STP at Naroda GIDC AHD	---	*Planned Tonight*
 
-5-	STP: Airtel Delhi & Maharashtra M2M level update and new level definition to accommodate 5 new levels at ALL STPs	---	*Planned Tonight*
+5-	STP: Airtel Delhi & Maharashtra M2M level update and new level definition to accommodate 5 new levels at LKW STP at Janakipuram Lucknow	---	*Planned Tonight*
+
+6-	MOP FOR MUMBAI DR CRBT IP POOL WHITELISTING in MP Circle MRF/Vmrf at Ashima mall Bhopal (MP1)	---	*Planned Tonight*
